@@ -5,16 +5,18 @@
   background-color: #11143D !important;
 }
 
-/* Body background */
+/* Body background and font size */
 body {
   background-color: #152D44 !important;
   color: white !important;
+  font-size: 18px !important;
 }
 
 /* Buttons */
 .btn {
   background-color: #A2AEBB !important;
   color: white !important;
+  border-radius: 10px !important;
 }
 
 /* Links in navbar */
@@ -36,4 +38,31 @@ h1, h2, h3, h4, h5, h6, p, li {
 .card {
   background-color: #152D44 !important;
   border-color: #A2AEBB !important;
+}
+
+/* Logo buttons */
+.logo-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.github-btn {
+  background-image: url('logos/github-logo.png');
+}
+
+.x-btn {
+  background-image: url('logos/x-logo.png');
+}
+
+.linkedin-btn {
+  background-image: url('logos/linkedin-logo.png');
+}
+
+/* Space between photo and text */
+#text-col {
+  margin-left: 30px;
 }

@@ -5,21 +5,21 @@
 
 ::: {}
 
-![](files/Foto_Juan_Siachoque_compress.jpg){width="301" .rounded-circle}
+![](files/Foto_Juan_Siachoque_compress.jpg){width="300" height="300"}
 
-<a href="https://github.com/juanpscampos"><img src="logos/github-logo.png" width="30" alt="GitHub"></a>
-<a href="https://x.com/juanpscampos"><img src="logos/x-logo.png" width="30" alt="X"></a>
-<a href="https://www.linkedin.com/in/juanpscampos/"><img src="logos/linkedin-logo.png" width="30" alt="LinkedIn"></a>
+<button onclick="window.open('https://github.com/juanpscampos')" class="logo-btn github-btn"></button>
+<button onclick="window.open('https://x.com/juanpscampos')" class="logo-btn x-btn"></button>
+<button onclick="window.open('https://www.linkedin.com/in/juanpscampos/')" class="logo-btn linkedin-btn"></button>
 
 :::
 
-::: {}
+::: {#text-col}
 
 # Welcome to my website.
 I am a PhD student in Economics at the University of Nottingham, with research interests in empirical and theoretical labour economics. Before beginning my doctoral studies, I worked at several international institutions, including the Organisation for Economic Co-operation and Development ([OECD](https://www.oecd.org/)), the Inter-American Development Bank ([IDB](https://www.iadb.org/en)), and the Latin American Reserve Fund ([FLAR](https://flar.com/en/home/)).
 
 
-[Download CV](files/cv.pdf){ .btn .btn-primary }
+[Download CV](files/cv.pdf){ .btn .btn-primary .rounded }
 
 :::
 
