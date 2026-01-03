@@ -11,12 +11,22 @@
 <button onclick="window.open('https://x.com/juanpscampos')" class="logo-btn x-btn"></button>
 <button onclick="window.open('https://www.linkedin.com/in/juanpscampos/')" class="logo-btn linkedin-btn"></button>
 
+**School of Economics**  
+Office C35, Sir Clive Granger Building,  
+The University of Nottingham,  
+Nottingham, NG7 2RD,  
+England, United Kingdom  
+
 :::
 
 ::: {#text-col}
 
 # Welcome to my website.
-I am a PhD student in Economics at the University of Nottingham, with research interests in empirical and theoretical labour economics. Before beginning my doctoral studies, I worked at several international institutions, including the Organisation for Economic Co-operation and Development ([OECD](https://www.oecd.org/)), the Inter-American Development Bank ([IDB](https://www.iadb.org/en)), and the Latin American Reserve Fund ([FLAR](https://flar.com/en/home/)).
+I am a PhD student in Economics at the University of Nottingham. Before beginning my doctoral studies, I worked at several international institutions, including the Organisation for Economic Co-operation and Development ([OECD](https://www.oecd.org/)), the Inter-American Development Bank ([IDB](https://www.iadb.org/en)), and the Latin American Reserve Fund ([FLAR](https://flar.com/en/home/)).
+
+## Research Interests
+- Main: Applied and theoretical labour economics.  
+- Secondary: Macroeconomics, fiscal policy.
 
 
 [Download CV](files/cv.pdf){ .btn .btn-primary .rounded }
