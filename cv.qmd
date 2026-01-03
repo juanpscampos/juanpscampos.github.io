@@ -1,0 +1,24 @@
+---
+title: "Curriculum Vitae"
+---
+
+# Curriculum Vitae
+
+Download my full CV here: [cv.pdf](files/cv.pdf)
+
+## Education
+
+- PhD in Economics, University of Nottingham (current)
+- Previous degrees...
+
+## Experience
+
+- OECD
+- IDB
+- FLAR
+
+## Skills
+
+- Economics research
+- Data analysis
+- etc.
