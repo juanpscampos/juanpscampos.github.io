@@ -13,8 +13,20 @@ website:
       - href: research.qmd
         text: Research
 
+  page-footer: 
+    right: "Copyright 2026, Juan Pablo Siachoque Campos" 
+    left: 
+      - icon: github
+        href: https://github.com/juanpscampos
+      - icon: twitter 
+        href: https://x.com/juanpscampos
+      - icon: linkedin 
+        href: https://www.linkedin.com/in/juanpscampos/
+
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+
+    website:
