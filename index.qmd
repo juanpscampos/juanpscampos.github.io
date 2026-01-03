@@ -1,8 +1,5 @@
 ---
-title: Juan Pablo Siachoque Campos 
 ---
-
-
 
 ::: {layout="[[1,2]]"}
 

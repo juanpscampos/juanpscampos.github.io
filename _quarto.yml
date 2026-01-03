@@ -5,7 +5,7 @@ project:
 website:
   title: "Juan Pablo Siachoque Campos"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - href: cv.qmd

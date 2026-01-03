@@ -1,0 +1,39 @@
+/* Custom styles for the website */
+
+/* Navbar background */
+.navbar {
+  background-color: #11143D !important;
+}
+
+/* Body background */
+body {
+  background-color: #152D44 !important;
+  color: white !important;
+}
+
+/* Buttons */
+.btn {
+  background-color: #A2AEBB !important;
+  color: white !important;
+}
+
+/* Links in navbar */
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+/* Active nav link */
+.navbar-nav .nav-link.active {
+  color: #A2AEBB !important;
+}
+
+/* Ensure text is white */
+h1, h2, h3, h4, h5, h6, p, li {
+  color: white !important;
+}
+
+/* Card backgrounds if any */
+.card {
+  background-color: #152D44 !important;
+  border-color: #A2AEBB !important;
+}
