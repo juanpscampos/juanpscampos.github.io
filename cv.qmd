@@ -2,8 +2,6 @@
 title: "Curriculum Vitae"
 ---
 
-# Curriculum Vitae
-
 Download my full CV here: [cv.pdf](files/cv.pdf)
 
 ## Education
