@@ -2,19 +2,7 @@
 title: "Research"
 ---
 
-# Research Interests
-
-My research focuses on empirical and theoretical labour economics.
 
 ## Working Papers
 
-- Paper 1: Title...
-- Paper 2: Title...
-
-## Publications
-
-- Publication 1...
-
-## Work in Progress
-
-- Project 1...
+- Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies with Valencia, O., Rodriguez, L. A [Paper](https://publications.iadb.org/en/fiscal-rules-and-optimal-currency-composition-sovereign-debt-emerging-economies)

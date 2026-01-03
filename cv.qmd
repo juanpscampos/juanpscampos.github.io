@@ -4,8 +4,6 @@ title: "Curriculum Vitae"
 
 Download my full CV here: [Download CV](files/cv.pdf){ .btn .btn-primary }
 
-## Contact Information
-
 ## Education
 
 - **PhD in Economics candidate** (2022 - Currently)  
@@ -24,8 +22,8 @@ Download my full CV here: [Download CV](files/cv.pdf){ .btn .btn-primary }
 
 ## Professional Experience
 
-- **Intern, Social Policy Division at the Directorate for Employment, Labour and Social Affairs** (Jun 2025 - Oct 2025)  
-  Organisation for Economic Co-operation and Development, Remote work.
+- **Intern, Social Policy Division at the Directorate for Employment, Labour and Social Affairs** (Jun 2025 - Dec 2025)  
+  Organisation for Economic Co-operation and Development.
 
 - **Consultant, Fiscal Policy and Management Division** (Aug 2020 - Dec 2021)  
   Inter American Development Bank, Remote work.
@@ -44,12 +42,11 @@ Download my full CV here: [Download CV](files/cv.pdf){ .btn .btn-primary }
 
 ## Teaching Experience
 
-- **Graduate Teaching Assistant**  
+- **Graduate Teaching Assistant, School of Economics, University of Nottingham**  
   - Dissertation (UG, Third year, Spring 2025)  
   - Applied Econometrics I and II (UG, Second year, Fall 2023, Spring 2024)  
   - Introduction to Economics: Macroeconomics (UG, First Year, Spring 2023)  
-  - Labour Economics (UG, Second Year, Fall 2022)  
-  School of Economics, University of Nottingham  
+  - Labour Economics (UG, Second Year, Fall 2022) 
 
 ## Awards
 

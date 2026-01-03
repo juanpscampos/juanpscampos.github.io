@@ -4,28 +4,28 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "My research focuses on empirical and theoretical labour economics.\n\n\n\nPaper 1: Title…\nPaper 2: Title…\n\n\n\n\n\nPublication 1…\n\n\n\n\n\nProject 1…"
+    "text": "Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies with Valencia, O., Rodriguez, L. A [Paper]{https://publications.iadb.org/en/fiscal-rules-and-optimal-currency-composition-sovereign-debt-emerging-economies}"
   },
   {
     "objectID": "research.html#working-papers",
     "href": "research.html#working-papers",
     "title": "Research",
     "section": "",
-    "text": "Paper 1: Title…\nPaper 2: Title…"
+    "text": "Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies with Valencia, O., Rodriguez, L. A [Paper]{https://publications.iadb.org/en/fiscal-rules-and-optimal-currency-composition-sovereign-debt-emerging-economies}"
   },
   {
     "objectID": "research.html#publications",
     "href": "research.html#publications",
     "title": "Research",
-    "section": "",
-    "text": "Publication 1…"
+    "section": "Publications",
+    "text": "Publications\n\nPublication 1…"
   },
   {
     "objectID": "research.html#work-in-progress",
     "href": "research.html#work-in-progress",
     "title": "Research",
-    "section": "",
-    "text": "Project 1…"
+    "section": "Work in Progress",
+    "text": "Work in Progress\n\nProject 1…"
   },
   {
     "objectID": "cv.html",
@@ -67,7 +67,7 @@
     "href": "cv.html#teaching-experience",
     "title": "Curriculum Vitae",
     "section": "Teaching Experience",
-    "text": "Teaching Experience\n\nGraduate Teaching Assistant\n\nDissertation (UG, Third year, Spring 2025)\n\nApplied Econometrics I and II (UG, Second year, Fall 2023, Spring 2024)\n\nIntroduction to Economics: Macroeconomics (UG, First Year, Spring 2023)\n\nLabour Economics (UG, Second Year, Fall 2022)\nSchool of Economics, University of Nottingham"
+    "text": "Teaching Experience\n\nGraduate Teaching Assistant, School of Economics, University of Nottingham\n\nDissertation (UG, Third year, Spring 2025)\n\nApplied Econometrics I and II (UG, Second year, Fall 2023, Spring 2024)\n\nIntroduction to Economics: Macroeconomics (UG, First Year, Spring 2023)\n\nLabour Economics (UG, Second Year, Fall 2022)"
   },
   {
     "objectID": "cv.html#pre-phd-publications",
@@ -81,7 +81,7 @@
     "href": "cv.html#professional-experience",
     "title": "Curriculum Vitae",
     "section": "Professional Experience",
-    "text": "Professional Experience\n\nIntern, Social Policy Division at the Directorate for Employment, Labour and Social Affairs (Jun 2025 - Oct 2025)\nOrganisation for Economic Co-operation and Development, Remote work.\nConsultant, Fiscal Policy and Management Division (Aug 2020 - Dec 2021)\nInter American Development Bank, Remote work.\nEconomist, Economic Studies Department (Jan 2017 - Aug 2019)\nLatin American Reserves Fund, Bogotá, Colombia.\nAnalyst, Finance Department (Sep 2013 - Dec 2016)\nLatin American Reserves Fund, Bogotá, Colombia."
+    "text": "Professional Experience\n\nIntern, Social Policy Division at the Directorate for Employment, Labour and Social Affairs (Jun 2025 - Dec 2025)\nOrganisation for Economic Co-operation and Development.\nConsultant, Fiscal Policy and Management Division (Aug 2020 - Dec 2021)\nInter American Development Bank, Remote work.\nEconomist, Economic Studies Department (Jan 2017 - Aug 2019)\nLatin American Reserves Fund, Bogotá, Colombia.\nAnalyst, Finance Department (Sep 2013 - Dec 2016)\nLatin American Reserves Fund, Bogotá, Colombia."
   },
   {
     "objectID": "cv.html#awards",
@@ -102,6 +102,20 @@
     "href": "index.html",
     "title": "Welcome to my website.",
     "section": "",
-    "text": "I am a PhD student in Economics at the University of Nottingham, with research interests in empirical and theoretical labour economics. Before beginning my doctoral studies, I worked at several international institutions, including the Organisation for Economic Co-operation and Development (OECD), the Inter-American Development Bank (IDB), and the Latin American Reserve Fund (FLAR).\nDownload CV"
+    "text": "Office C35, Sir Clive Granger Building,\nThe University of Nottingham,\nNottingham, NG7 2RD,\nEngland, United Kingdom\nemail: lexjs19@nottingham.ac.uk , juanpascampos@gmail.com\n\n\n\n\n\nI am a PhD student in Economics at the University of Nottingham. Before beginning my doctoral studies, I worked at several international institutions, including the Organisation for Economic Co-operation and Development (OECD), the Inter-American Development Bank (IDB), and the Latin American Reserve Fund (FLAR).\n\n\n\nMain: Applied and theoretical labour economics.\n\nSecondary: Macroeconomics, fiscal policy.\n\nDownload CV"
+  },
+  {
+    "objectID": "index.html#contact-information",
+    "href": "index.html#contact-information",
+    "title": "Welcome to my website.",
+    "section": "",
+    "text": "Office C35, Sir Clive Granger Building,\nThe University of Nottingham,\nNottingham, NG7 2RD,\nEngland, United Kingdom\nemail: lexjs19@nottingham.ac.uk , juanpascampos@gmail.com"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Welcome to my website.",
+    "section": "",
+    "text": "Main: Applied and theoretical labour economics.\n\nSecondary: Macroeconomics, fiscal policy.\n\nDownload CV"
   }
 ]
