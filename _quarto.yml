@@ -12,6 +12,10 @@ website:
         text: CV
       - href: research.qmd
         text: Research
+      - text: Resources
+        menu:
+          - text: Debt Sustainability
+            href: resources.qmd
 
 format:
   html:

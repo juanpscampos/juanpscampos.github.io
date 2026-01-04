@@ -1,0 +1,170 @@
+---
+title: "Resources"
+---
+
+## Public Debt Dynamics
+
+### Debt Dynamics in a Closed Economy
+
+Consider an economy that does not trade with the rest of the world. Let $Y_t$ denote real GDP in year $t$, and $P_t$ the GDP deflator. Nominal GDP is given by the product $P_t Y_t$. Let $\pi_t$ denote the rate of inflation between $t-1$ and $t$, defined as:
+
+$$
+\pi_t = \frac{P_t}{P_{t-1}} - 1.
+$$
+
+Similarly, the real GDP growth rate is defined as:
+
+$$
+g_t = \frac{Y_t}{Y_{t-1}} - 1.
+$$
+
+Let $M_t$ denote the stock of money at time $t$, and for simplicity assume that all interest-bearing public debt has a one-period maturity. Let $D_{t-1}$ denote the stock of public bonds outstanding at the end of period $t-1$. The average nominal interest rate on public debt issued in $t-1$ is $i_t$. Let $AF_t$ represent government financial assets at time $t$.
+
+Government expenditure in year $t$ consists of two components: non-interest expenditure, denoted $G_t$, and interest payments on outstanding debt, $i_t D_{t-1}$.
+
+The government budget constraint in period $t$ is given by:
+
+$$
+G_t + i_t D_{t-1} = R_t + (D_t - D_{t-1}) + (M_t - M_{t-1}) + (AF_t - AF_{t-1}).
+$$
+
+Identity (1) implies that government expenditures are financed through net tax and non-tax revenues from the private sector, $R_t$, money creation $(M_t - M_{t-1}) \equiv \Delta M_t$, issuance of interest-bearing debt $(D_t - D_{t-1})$, and changes in financial assets $(AF_t - AF_{t-1}) \equiv \Delta AF_t$.
+
+The fiscal balance of the government is defined as the difference between revenues and total expenditures, $R_t - (G_t + i_t D_{t-1})$. The **primary balance**, $PB_t$, is defined as revenues minus expenditures excluding interest payments:
+
+$$
+PB_t = R_t - G_t.
+$$
+
+Rearranging equation (1) and solving for $D_t$ yields:
+
+$$
+D_t = (1 + i_t)D_{t-1} - (PB_t - \Delta M_t - \Delta AF_t).
+$$
+
+Dividing both sides of equation (2) by nominal GDP $P_t Y_t$ yields:
+
+$$
+\frac{D_t}{P_t Y_t}
+= \frac{(1+i_t)D_{t-1}}{P_t Y_t}
+- \frac{PB_t}{P_t Y_t}
+- \frac{\Delta M_t}{P_t Y_t}
+- \frac{\Delta AF_t}{P_t Y_t}.
+$$
+
+Using the identities $P_t Y_t = (1+g_t)(1+\pi_t)P_{t-1}Y_{t-1}$ and defining debt, the primary balance, and seigniorage as shares of GDP:
+
+$$
+d_t \equiv \frac{D_t}{P_t Y_t}, \quad
+pb_t \equiv \frac{PB_t}{P_t Y_t}, \quad
+\mu_t \equiv \frac{\Delta M_t}{P_t Y_t},
+$$
+
+the previous equation can be written as:
+
+$$
+d_t = \frac{(1+i_t)}{(1+g_t)(1+\pi_t)} d_{t-1}
+- (pb_t + \mu_t + af_t).
+$$
+
+Using the Fisher equation linking nominal and real interest rates:
+
+$$
+1 + r_t = \frac{1+i_t}{1+\pi_t},
+$$
+
+define:
+
+$$
+\phi_t \equiv \frac{1+r_t}{1+g_t}.
+$$
+
+With this parameter, the government budget constraint can be rewritten as:
+
+$$
+d_t = \phi_t d_{t-1} - (pb_t + \mu_t + af_t).
+$$
+
+Debt dynamics can also be analyzed by computing the change in the debt-to-GDP ratio, $\Delta d_t = d_t - d_{t-1}$. Subtracting $d_{t-1}$ from both sides yields:
+
+$$
+\Delta d_t = (\phi_t - 1)d_{t-1} - (pb_t + \mu_t + af_t).
+$$
+
+The size of the primary balance as a share of GDP, $pb_t$, is a useful indicator of the fiscal effort required to reach a desired debt level. To obtain the **debt-stabilizing primary balance**, set $\Delta d_t = 0$. For simplicity, assume that seigniorage and changes in financial assets are zero. The debt-stabilizing primary balance is therefore:
+
+$$
+pb_t = (\phi_t - 1)d_{t-1}.
+$$
+
+The debt-stabilizing primary balance depends on several factors:
+
+1. A higher initial level of debt requires a larger primary surplus to stabilize debt.
+2. A larger difference between the real interest rate and the real GDP growth rate increases the required primary balance.
+3. The availability of seigniorage or other financing sources, such as privatizations, reduces the primary balance required to stabilize debt.
+
+---
+
+### Debt Dynamics in an Open Economy
+
+The analysis of debt sustainability in an open economy is similar to the closed-economy case. In this economy, the government can access external financing. Total public debt at time $t$ is given by:
+
+$$
+D_t = D_t^d + e_t D_t^f,
+$$
+
+where $D_t^d$ denotes domestic-currency debt, $D_t^f$ foreign-currency debt, and $e_t$ the nominal exchange rate (domestic currency per unit of foreign currency).
+
+Let $i_t^d$ denote the nominal interest rate on domestic debt and $i_t^f$ the nominal interest rate on foreign debt. Using these definitions, and assuming no seigniorage and no changes in financial assets, the government budget constraint becomes:
+
+$$
+D_t^d + e_t D_t^f
+= (1+i_t^d)D_{t-1}^d + (1+i_t^f)e_t D_{t-1}^f - PB_t.
+$$
+
+Define the share of foreign-currency debt in total debt as:
+
+$$
+\alpha_{t-1} = \frac{e_{t-1}D_{t-1}^f}{D_{t-1}},
+$$
+
+and the nominal depreciation rate as:
+
+$$
+\varepsilon_t = \frac{e_t - e_{t-1}}{e_{t-1}}.
+$$
+
+Using these definitions, domestic debt can be written as:
+
+$$
+D_{t-1}^d = (1-\alpha_{t-1})D_{t-1},
+$$
+
+and foreign debt valued at current exchange rates as:
+
+$$
+e_t D_{t-1}^f = \alpha_{t-1}(1+\varepsilon_t)D_{t-1}.
+$$
+
+Total debt therefore evolves according to:
+
+$$
+D_t
+= (1+i_t^d)(1-\alpha_{t-1})D_{t-1}
++ (1+i_t^f)\alpha_{t-1}(1+\varepsilon_t)D_{t-1}
+- PB_t.
+$$
+
+Dividing both sides by nominal GDP $P_t Y_t$ yields:
+
+$$
+d_t
+= \frac{(1+i_t^d)(1-\alpha_{t-1})}{(1+g_t)(1+\pi_t)} d_{t-1}
++ \frac{(1+i_t^f)\alpha_{t-1}(1+\varepsilon_t)}{(1+g_t)(1+\pi_t)} d_{t-1}
+- pb_t.
+$$
+
+Define the weighted average nominal interest rate as:
+
+$$
+i_t^w = (1-\alpha_{t-1})i_t^d_

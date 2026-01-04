@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
-<meta charset="utf-8">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Juan Pablo Siachoque Campos</title>
+<title>Resources – Juan Pablo Siachoque Campos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,6 +85,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -91,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -124,43 +169,163 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#public-debt-dynamics" id="toc-public-debt-dynamics" class="nav-link active" data-scroll-target="#public-debt-dynamics">Public Debt Dynamics</a>
+  <ul class="collapse">
+  <li><a href="#debt-dynamics-in-a-closed-economy" id="toc-debt-dynamics-in-a-closed-economy" class="nav-link" data-scroll-target="#debt-dynamics-in-a-closed-economy">Debt Dynamics in a Closed Economy</a></li>
+  <li><a href="#debt-dynamics-in-an-open-economy" id="toc-debt-dynamics-in-an-open-economy" class="nav-link" data-scroll-target="#debt-dynamics-in-an-open-economy">Debt Dynamics in an Open Economy</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Welcome to my website.</h1></header>
+<main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-layout-panel" data-layout="[[1,2]]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><img src="files/Foto_Juan_Siachoque_compress.jpg" class="profile-img img-fluid" width="600"></p>
-<p><a href="https://x.com/juanpscampos"><img src="files/logo-white.png" width="40" height="40" alt="X"></a> <a href="https://www.linkedin.com/in/juanpscampos/"><img src="files/InBug-White.png" width="40" height="40" alt="Linkedin"></a></p>
-<section id="office-c35-sir-clive-granger-building-the-university-of-nottingham-nottingham-england-united-kingdom" class="level6">
-<h6 class="anchored" data-anchor-id="office-c35-sir-clive-granger-building-the-university-of-nottingham-nottingham-england-united-kingdom">Office C35, Sir Clive Granger Building, The University of Nottingham, Nottingham, England, United Kingdom</h6>
-<p>E-mail: lexjs19@nottingham.ac.uk , juanpascampos@gmail.com</p>
-</section>
-</div>
-<div id="text-col" class="quarto-layout-cell" style="flex-basis: 66.7%;justify-content: flex-start;">
-<section id="welcome-to-my-website." class="level1">
-
-<section id="i-am-a-phd-student-in-economics-at-the-university-of-nottingham.-before-beginning-my-doctoral-studies-i-worked-at-several-international-institutions-including-the-organisation-for-economic-co-operation-and-development-oecd-the-inter-american-development-bank-idb-and-the-latin-american-reserve-fund-flar." class="level3">
-<h3 class="anchored" data-anchor-id="i-am-a-phd-student-in-economics-at-the-university-of-nottingham.-before-beginning-my-doctoral-studies-i-worked-at-several-international-institutions-including-the-organisation-for-economic-co-operation-and-development-oecd-the-inter-american-development-bank-idb-and-the-latin-american-reserve-fund-flar.">I am a PhD student in Economics at the University of Nottingham. Before beginning my doctoral studies, I worked at several international institutions, including the Organisation for Economic Co-operation and Development (<a href="https://www.oecd.org/">OECD</a>), the Inter-American Development Bank (<a href="https://www.iadb.org/en">IDB</a>), and the Latin American Reserve Fund (<a href="https://flar.com/en/home/">FLAR</a>).</h3>
-</section>
-<section id="research-interests" class="level3">
-<h3 class="anchored" data-anchor-id="research-interests">Research Interests</h3>
-<p>Main: Applied and theoretical labour economics.<br>
-Secondary: Macroeconomics.</p>
-<p><a href="files/cv.pdf" class="btn btn-primary rounded">Download CV</a></p>
-</section>
-</section>
-</div>
-</div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Resources</h1>
 </div>
 
 
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="public-debt-dynamics" class="level2">
+<h2 class="anchored" data-anchor-id="public-debt-dynamics">Public Debt Dynamics</h2>
+<section id="debt-dynamics-in-a-closed-economy" class="level3">
+<h3 class="anchored" data-anchor-id="debt-dynamics-in-a-closed-economy">Debt Dynamics in a Closed Economy</h3>
+<p>Consider an economy that does not trade with the rest of the world. Let <span class="math inline">\(Y_t\)</span> denote real GDP in year <span class="math inline">\(t\)</span>, and <span class="math inline">\(P_t\)</span> the GDP deflator. Nominal GDP is given by the product <span class="math inline">\(P_t Y_t\)</span>. Let <span class="math inline">\(\pi_t\)</span> denote the rate of inflation between <span class="math inline">\(t-1\)</span> and <span class="math inline">\(t\)</span>, defined as:</p>
+<p><span class="math display">\[
+\pi_t = \frac{P_t}{P_{t-1}} - 1.
+\]</span></p>
+<p>Similarly, the real GDP growth rate is defined as:</p>
+<p><span class="math display">\[
+g_t = \frac{Y_t}{Y_{t-1}} - 1.
+\]</span></p>
+<p>Let <span class="math inline">\(M_t\)</span> denote the stock of money at time <span class="math inline">\(t\)</span>, and for simplicity assume that all interest-bearing public debt has a one-period maturity. Let <span class="math inline">\(D_{t-1}\)</span> denote the stock of public bonds outstanding at the end of period <span class="math inline">\(t-1\)</span>. The average nominal interest rate on public debt issued in <span class="math inline">\(t-1\)</span> is <span class="math inline">\(i_t\)</span>. Let <span class="math inline">\(AF_t\)</span> represent government financial assets at time <span class="math inline">\(t\)</span>.</p>
+<p>Government expenditure in year <span class="math inline">\(t\)</span> consists of two components: non-interest expenditure, denoted <span class="math inline">\(G_t\)</span>, and interest payments on outstanding debt, <span class="math inline">\(i_t D_{t-1}\)</span>.</p>
+<p>The government budget constraint in period <span class="math inline">\(t\)</span> is given by:</p>
+<p><span class="math display">\[
+G_t + i_t D_{t-1} = R_t + (D_t - D_{t-1}) + (M_t - M_{t-1}) + (AF_t - AF_{t-1}).
+\]</span></p>
+<p>Identity (1) implies that government expenditures are financed through net tax and non-tax revenues from the private sector, <span class="math inline">\(R_t\)</span>, money creation <span class="math inline">\((M_t - M_{t-1}) \equiv \Delta M_t\)</span>, issuance of interest-bearing debt <span class="math inline">\((D_t - D_{t-1})\)</span>, and changes in financial assets <span class="math inline">\((AF_t - AF_{t-1}) \equiv \Delta AF_t\)</span>.</p>
+<p>The fiscal balance of the government is defined as the difference between revenues and total expenditures, <span class="math inline">\(R_t - (G_t + i_t D_{t-1})\)</span>. The <strong>primary balance</strong>, <span class="math inline">\(PB_t\)</span>, is defined as revenues minus expenditures excluding interest payments:</p>
+<p><span class="math display">\[
+PB_t = R_t - G_t.
+\]</span></p>
+<p>Rearranging equation (1) and solving for <span class="math inline">\(D_t\)</span> yields:</p>
+<p><span class="math display">\[
+D_t = (1 + i_t)D_{t-1} - (PB_t - \Delta M_t - \Delta AF_t).
+\]</span></p>
+<p>Dividing both sides of equation (2) by nominal GDP <span class="math inline">\(P_t Y_t\)</span> yields:</p>
+<p><span class="math display">\[
+\frac{D_t}{P_t Y_t}
+= \frac{(1+i_t)D_{t-1}}{P_t Y_t}
+- \frac{PB_t}{P_t Y_t}
+- \frac{\Delta M_t}{P_t Y_t}
+- \frac{\Delta AF_t}{P_t Y_t}.
+\]</span></p>
+<p>Using the identities <span class="math inline">\(P_t Y_t = (1+g_t)(1+\pi_t)P_{t-1}Y_{t-1}\)</span> and defining debt, the primary balance, and seigniorage as shares of GDP:</p>
+<p><span class="math display">\[
+d_t \equiv \frac{D_t}{P_t Y_t}, \quad
+pb_t \equiv \frac{PB_t}{P_t Y_t}, \quad
+\mu_t \equiv \frac{\Delta M_t}{P_t Y_t},
+\]</span></p>
+<p>the previous equation can be written as:</p>
+<p><span class="math display">\[
+d_t = \frac{(1+i_t)}{(1+g_t)(1+\pi_t)} d_{t-1}
+- (pb_t + \mu_t + af_t).
+\]</span></p>
+<p>Using the Fisher equation linking nominal and real interest rates:</p>
+<p><span class="math display">\[
+1 + r_t = \frac{1+i_t}{1+\pi_t},
+\]</span></p>
+<p>define:</p>
+<p><span class="math display">\[
+\phi_t \equiv \frac{1+r_t}{1+g_t}.
+\]</span></p>
+<p>With this parameter, the government budget constraint can be rewritten as:</p>
+<p><span class="math display">\[
+d_t = \phi_t d_{t-1} - (pb_t + \mu_t + af_t).
+\]</span></p>
+<p>Debt dynamics can also be analyzed by computing the change in the debt-to-GDP ratio, <span class="math inline">\(\Delta d_t = d_t - d_{t-1}\)</span>. Subtracting <span class="math inline">\(d_{t-1}\)</span> from both sides yields:</p>
+<p><span class="math display">\[
+\Delta d_t = (\phi_t - 1)d_{t-1} - (pb_t + \mu_t + af_t).
+\]</span></p>
+<p>The size of the primary balance as a share of GDP, <span class="math inline">\(pb_t\)</span>, is a useful indicator of the fiscal effort required to reach a desired debt level. To obtain the <strong>debt-stabilizing primary balance</strong>, set <span class="math inline">\(\Delta d_t = 0\)</span>. For simplicity, assume that seigniorage and changes in financial assets are zero. The debt-stabilizing primary balance is therefore:</p>
+<p><span class="math display">\[
+pb_t = (\phi_t - 1)d_{t-1}.
+\]</span></p>
+<p>The debt-stabilizing primary balance depends on several factors:</p>
+<ol type="1">
+<li>A higher initial level of debt requires a larger primary surplus to stabilize debt.</li>
+<li>A larger difference between the real interest rate and the real GDP growth rate increases the required primary balance.</li>
+<li>The availability of seigniorage or other financing sources, such as privatizations, reduces the primary balance required to stabilize debt.</li>
+</ol>
+<hr>
+</section>
+<section id="debt-dynamics-in-an-open-economy" class="level3">
+<h3 class="anchored" data-anchor-id="debt-dynamics-in-an-open-economy">Debt Dynamics in an Open Economy</h3>
+<p>The analysis of debt sustainability in an open economy is similar to the closed-economy case. In this economy, the government can access external financing. Total public debt at time <span class="math inline">\(t\)</span> is given by:</p>
+<p><span class="math display">\[
+D_t = D_t^d + e_t D_t^f,
+\]</span></p>
+<p>where <span class="math inline">\(D_t^d\)</span> denotes domestic-currency debt, <span class="math inline">\(D_t^f\)</span> foreign-currency debt, and <span class="math inline">\(e_t\)</span> the nominal exchange rate (domestic currency per unit of foreign currency).</p>
+<p>Let <span class="math inline">\(i_t^d\)</span> denote the nominal interest rate on domestic debt and <span class="math inline">\(i_t^f\)</span> the nominal interest rate on foreign debt. Using these definitions, and assuming no seigniorage and no changes in financial assets, the government budget constraint becomes:</p>
+<p><span class="math display">\[
+D_t^d + e_t D_t^f
+= (1+i_t^d)D_{t-1}^d + (1+i_t^f)e_t D_{t-1}^f - PB_t.
+\]</span></p>
+<p>Define the share of foreign-currency debt in total debt as:</p>
+<p><span class="math display">\[
+\alpha_{t-1} = \frac{e_{t-1}D_{t-1}^f}{D_{t-1}},
+\]</span></p>
+<p>and the nominal depreciation rate as:</p>
+<p><span class="math display">\[
+\varepsilon_t = \frac{e_t - e_{t-1}}{e_{t-1}}.
+\]</span></p>
+<p>Using these definitions, domestic debt can be written as:</p>
+<p><span class="math display">\[
+D_{t-1}^d = (1-\alpha_{t-1})D_{t-1},
+\]</span></p>
+<p>and foreign debt valued at current exchange rates as:</p>
+<p><span class="math display">\[
+e_t D_{t-1}^f = \alpha_{t-1}(1+\varepsilon_t)D_{t-1}.
+\]</span></p>
+<p>Total debt therefore evolves according to:</p>
+<p><span class="math display">\[
+D_t
+= (1+i_t^d)(1-\alpha_{t-1})D_{t-1}
++ (1+i_t^f)\alpha_{t-1}(1+\varepsilon_t)D_{t-1}
+- PB_t.
+\]</span></p>
+<p>Dividing both sides by nominal GDP <span class="math inline">\(P_t Y_t\)</span> yields:</p>
+<p><span class="math display">\[
+d_t
+= \frac{(1+i_t^d)(1-\alpha_{t-1})}{(1+g_t)(1+\pi_t)} d_{t-1}
++ \frac{(1+i_t^f)\alpha_{t-1}(1+\varepsilon_t)}{(1+g_t)(1+\pi_t)} d_{t-1}
+- pb_t.
+\]</span></p>
+<p>Define the weighted average nominal interest rate as:</p>
+<p>$$ i_t^w = (1-<em>{t-1})i_t^d</em></p>
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

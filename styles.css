@@ -24,6 +24,11 @@ body {
   color: white !important;
 }
 
+/* Navbar brand (site title) */
+.navbar-brand {
+  color: white !important;
+}
+
 /* Active nav link */
 .navbar-nav .nav-link.active {
   color: #A2AEBB !important;
