@@ -4,22 +4,42 @@ title: "Resources"
 
 ## Interactive Debt Sustainability Calculator
 
-Use the sliders below to input values and calculate the required primary balance to stabilize debt in an open economy.
+Use the sliders below to input values (in percentages where applicable) and calculate the required primary balance to stabilize debt in an open economy.
 
 ```{ojs}
-viewof debt_ratio = Inputs.range([0, 2], {value: 0.5, step: 0.01, label: "Debt-to-GDP Ratio (d)"})
-viewof domestic_interest = Inputs.range([0, 0.2], {value: 0.05, step: 0.001, label: "Domestic Nominal Interest Rate (i_d)"})
-viewof foreign_interest = Inputs.range([0, 0.2], {value: 0.04, step: 0.001, label: "Foreign Nominal Interest Rate (i_f)"})
-viewof alpha = Inputs.range([0, 1], {value: 0.3, step: 0.01, label: "Share of Foreign Currency Debt (α)"})
-viewof epsilon = Inputs.range([-0.1, 0.1], {value: 0.02, step: 0.001, label: "Nominal Depreciation Rate (ε)"})
-viewof growth_rate = Inputs.range([0, 0.1], {value: 0.02, step: 0.001, label: "Growth Rate (g)"})
-viewof inflation_rate = Inputs.range([0, 0.1], {value: 0.03, step: 0.001, label: "Inflation Rate (π)"})
+//| echo: false
+viewof debt_ratio = Inputs.range([0, 200], {value: 50, step: 1, label: "Debt-to-GDP Ratio (%)"})
+viewof domestic_interest = Inputs.range([0, 20], {value: 5, step: 0.1, label: "Domestic Nominal Interest Rate (%)"})
+viewof foreign_interest = Inputs.range([0, 20], {value: 4, step: 0.1, label: "Foreign Nominal Interest Rate (%)"})
+viewof alpha = Inputs.range([0, 100], {value: 30, step: 1, label: "Share of Foreign Currency Debt (%)"})
+viewof epsilon = Inputs.range([-10, 10], {value: 2, step: 0.1, label: "Nominal Depreciation Rate (%)"})
+viewof growth_rate = Inputs.range([0, 10], {value: 2, step: 0.1, label: "Growth Rate (%)"})
+viewof inflation_rate = Inputs.range([0, 10], {value: 3, step: 0.1, label: "Inflation Rate (%)"})
 
-i_w = (1 - alpha) * domestic_interest + alpha * foreign_interest
-phi_star = (1 + i_w + epsilon * alpha * (1 + foreign_interest)) / ((1 + growth_rate) * (1 + inflation_rate))
-required_pb = (phi_star - 1) * debt_ratio
+d = debt_ratio / 100
+i_d = domestic_interest / 100
+i_f = foreign_interest / 100
+a = alpha / 100
+eps = epsilon / 100
+g = growth_rate / 100
+pi = inflation_rate / 100
 
-md`The required primary balance as a share of GDP is **${required_pb.toFixed(4)}**.`
+i_w = (1 - a) * i_d + a * i_f
+phi_star = (1 + i_w + eps * a * (1 + i_f)) / ((1 + g) * (1 + pi))
+required_pb = (phi_star - 1) * d
+
+html`<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+  <div>${viewof debt_ratio}</div>
+  <div>${viewof domestic_interest}</div>
+  <div>${viewof foreign_interest}</div>
+  <div>${viewof alpha}</div>
+  <div>${viewof epsilon}</div>
+  <div>${viewof growth_rate}</div>
+  <div>${viewof inflation_rate}</div>
+</div>
+<div style="background-color: #A2AEBB; color: black; padding: 10px; border-radius: 5px; font-weight: bold;">
+  The required primary balance as a share of GDP is ${(required_pb * 100).toFixed(2)}%.
+</div>`
 ```
 
 ## Public Debt Dynamics
@@ -125,7 +145,7 @@ The debt-stabilizing primary balance depends on several factors:
 
 ---
 
-### Debt Dynamics in an Open Economy
+### Open Economy
 
 The analysis of debt sustainability in an open economy is similar to that of a closed economy. However, in this case, the government can issue both domestic- and foreign-currency debt.
 
