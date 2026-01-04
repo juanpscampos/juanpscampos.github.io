@@ -2,6 +2,26 @@
 title: "Resources"
 ---
 
+## Interactive Debt Sustainability Calculator
+
+Use the sliders below to input values and calculate the required primary balance to stabilize debt in an open economy.
+
+```{ojs}
+viewof debt_ratio = Inputs.range([0, 2], {value: 0.5, step: 0.01, label: "Debt-to-GDP Ratio (d)"})
+viewof domestic_interest = Inputs.range([0, 0.2], {value: 0.05, step: 0.001, label: "Domestic Nominal Interest Rate (i_d)"})
+viewof foreign_interest = Inputs.range([0, 0.2], {value: 0.04, step: 0.001, label: "Foreign Nominal Interest Rate (i_f)"})
+viewof alpha = Inputs.range([0, 1], {value: 0.3, step: 0.01, label: "Share of Foreign Currency Debt (α)"})
+viewof epsilon = Inputs.range([-0.1, 0.1], {value: 0.02, step: 0.001, label: "Nominal Depreciation Rate (ε)"})
+viewof growth_rate = Inputs.range([0, 0.1], {value: 0.02, step: 0.001, label: "Growth Rate (g)"})
+viewof inflation_rate = Inputs.range([0, 0.1], {value: 0.03, step: 0.001, label: "Inflation Rate (π)"})
+
+i_w = (1 - alpha) * domestic_interest + alpha * foreign_interest
+phi_star = (1 + i_w + epsilon * alpha * (1 + foreign_interest)) / ((1 + growth_rate) * (1 + inflation_rate))
+required_pb = (phi_star - 1) * debt_ratio
+
+md`The required primary balance as a share of GDP is **${required_pb.toFixed(4)}**.`
+```
+
 ## Public Debt Dynamics
 
 ### Closed Economy
@@ -105,48 +125,48 @@ The debt-stabilizing primary balance depends on several factors:
 
 ---
 
-### Open Economy
+### Debt Dynamics in an Open Economy
 
-The analysis of debt sustainability in an open economy is similar to the closed-economy case. In this economy, the government can access external financing. Total public debt at time $t$ is given by:
+The analysis of debt sustainability in an open economy is similar to that of a closed economy. However, in this case, the government can issue both domestic- and foreign-currency debt.
+
+Total public debt at time $t$ is given by:
 
 $$
 D_t = D_t^d + e_t D_t^f,
 $$
 
-where $D_t^d$ denotes domestic-currency debt, $D_t^f$ foreign-currency debt, and $e_t$ the nominal exchange rate (domestic currency per unit of foreign currency).
+where $D_t^d$ denotes domestic-currency debt, $D_t^f$ foreign-currency debt, and $e_t$ is the nominal exchange rate (domestic currency per unit of foreign currency).
 
-Let $i_t^d$ denote the nominal interest rate on domestic debt and $i_t^f$ the nominal interest rate on foreign debt. Using these definitions, and assuming no seigniorage and no changes in financial assets, the government budget constraint becomes:
+Let $i_t^d$ denote the nominal interest rate on domestic debt and $i_t^f$ the nominal interest rate on foreign debt. Assuming that all debt has one-period maturity, and that there is no seigniorage and no change in government financial assets, the government budget constraint becomes:
 
 $$
 D_t^d + e_t D_t^f
 = (1+i_t^d)D_{t-1}^d + (1+i_t^f)e_t D_{t-1}^f - PB_t.
 $$
 
-Define the share of foreign-currency debt in total debt as:
+Define the share of foreign-currency debt in total debt at the end of period $t-1$ as:
 
 $$
 \alpha_{t-1} = \frac{e_{t-1}D_{t-1}^f}{D_{t-1}},
 $$
 
-and the nominal depreciation rate as:
+and define the nominal depreciation rate as:
 
 $$
 \varepsilon_t = \frac{e_t - e_{t-1}}{e_{t-1}}.
 $$
 
-Using these definitions, domestic debt can be written as:
+Using these definitions, domestic and foreign debt can be written as:
 
 $$
 D_{t-1}^d = (1-\alpha_{t-1})D_{t-1},
 $$
 
-and foreign debt valued at current exchange rates as:
-
 $$
 e_t D_{t-1}^f = \alpha_{t-1}(1+\varepsilon_t)D_{t-1}.
 $$
 
-Total debt therefore evolves according to:
+Substituting into the budget constraint yields the law of motion for total debt:
 
 $$
 D_t
@@ -155,7 +175,7 @@ D_t
 - PB_t.
 $$
 
-Dividing both sides by nominal GDP $P_t Y_t$ yields:
+Dividing both sides by nominal GDP $P_t Y_t = (1+g_t)(1+\pi_t)P_{t-1}Y_{t-1}$ and defining the primary balance as a share of GDP, $pb_t = PB_t / (P_t Y_t)$, yields:
 
 $$
 d_t
@@ -167,20 +187,17 @@ $$
 Define the weighted average nominal interest rate as:
 
 $$
-i_t^w = (1-\alpha_{t-1})i_t^d_t
+i_t^w = (1-\alpha_{t-1})i_t^d + \alpha_{t-1} i_t^f.
 $$
 
-## Interactive Debt Sustainability Calculator
+The debt-stabilizing primary balance is:
 
-Use the sliders below to input values and calculate the required primary balance to stabilize debt in a closed economy.
+$$
+pb_t^* = (\phi_t^* - 1)d_{t-1},
+$$
 
-```{ojs}
-viewof debt_ratio = Inputs.range([0, 2], {value: 0.5, step: 0.01, label: "Debt-to-GDP Ratio (d)"})
-viewof real_interest = Inputs.range([0, 0.1], {value: 0.03, step: 0.001, label: "Real Interest Rate (r)"})
-viewof growth_rate = Inputs.range([0, 0.1], {value: 0.02, step: 0.001, label: "Growth Rate (g)"})
+where
 
-phi = (1 + real_interest) / (1 + growth_rate)
-required_pb = (phi - 1) * debt_ratio
-
-md`The required primary balance as a share of GDP is **${required_pb.toFixed(4)}**.`
-```
+$$
+\phi_t^* = \frac{1+i_t^w + \varepsilon_t \alpha_{t-1} (1+i_t^f)}{(1+g_t)(1+\pi_t)}.
+$$
