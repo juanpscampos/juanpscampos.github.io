@@ -5,33 +5,28 @@
 
 ::: {}
 
-![](files/Foto_Juan_Siachoque_compress.jpg){width="500" height="500"}
-
-[Github](https://github.com/juanpscampos)
-
-[X](https://x.com/juanpscampos)
-
-[Linkedin](https://www.linkedin.com/in/juanpscampos/)
+![](files/Foto_Juan_Siachoque_compress.jpg){width="600" height="600" .profile-img}
 
 
-### Contact Information 
-Office C35, Sir Clive Granger Building,  
-The University of Nottingham,  
-Nottingham, NG7 2RD,  
-England, United Kingdom
 
-email: lexjs19@nottingham.ac.uk , juanpascampos@gmail.com
+[![X](files/logo-white.png){width=40 height=40}](https://x.com/juanpscampos)    [![Linkedin](files/InBug-White){width=40 height=40}](https://www.linkedin.com/in/juanpscampos/)
+
+
+
+###### Office C35, Sir Clive Granger Building,  The University of Nottingham, Nottingham, England, United Kingdom
+
+E-mail: lexjs19@nottingham.ac.uk , juanpascampos@gmail.com
 
 :::
 
 ::: {#text-col}
 
 # Welcome to my website.
-#### I am a PhD student in Economics at the University of Nottingham. Before beginning my doctoral studies, I worked at several international institutions, including the Organisation for Economic Co-operation and Development ([OECD](https://www.oecd.org/)), the Inter-American Development Bank ([IDB](https://www.iadb.org/en)), and the Latin American Reserve Fund ([FLAR](https://flar.com/en/home/)).
+### I am a PhD student in Economics at the University of Nottingham. Before beginning my doctoral studies, I worked at several international institutions, including the Organisation for Economic Co-operation and Development ([OECD](https://www.oecd.org/)), the Inter-American Development Bank ([IDB](https://www.iadb.org/en)), and the Latin American Reserve Fund ([FLAR](https://flar.com/en/home/)).
 
 ### Research Interests
-#### Main: Applied and theoretical labour economics.  
-#### Secondary: Macroeconomics, fiscal policy.
+ Main: Applied and theoretical labour economics.  
+ Secondary: Macroeconomics.
 
 
 [Download CV](files/cv.pdf){ .btn .btn-primary .rounded }

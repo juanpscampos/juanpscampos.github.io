@@ -3,6 +3,9 @@ title: "Research"
 ---
 
 
-## Working Papers
+### Working Papers
 
-- Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies with Valencia, O., Rodriguez, L. A [Paper](https://publications.iadb.org/en/fiscal-rules-and-optimal-currency-composition-sovereign-debt-emerging-economies)
+- ***Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies*** joint with Valencia, O., Rodriguez, L. A (R & R Economic Modelling) [Working Paper](https://publications.iadb.org/en/fiscal-rules-and-optimal-currency-composition-sovereign-debt-emerging-economies)
+
+
+

@@ -66,3 +66,35 @@ h1, h2, h3, h4, h5, h6, p, li {
 #text-col {
   margin-left: 30px;
 }
+
+/* Increase paragraph spacing */
+p {
+  margin-bottom: 1.25rem;
+}
+
+/* Increase spacing between sections */
+h2, h3 {
+  margin-top: 2.2rem;
+}
+
+/* Add space after headings */
+h2 + p,
+h3 + p {
+  margin-top: 1rem;
+}
+
+/* Improve list spacing */
+ul {
+  margin-top: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Space below profile image */
+.profile-img {
+  margin-bottom: 30px;
+}
+
+/* Space above contact information */
+h6 {
+  margin-top: 40px;
+}
