@@ -2,7 +2,7 @@
 title: "Curriculum Vitae"
 ---
 
-Download my full CV here: [Download CV](files/cv.pdf){ .btn .btn-primary }
+Download my full CV here: [Download CV](files/cv.pdf){ .btn .btn-primary target="_blank" }
 
 ## Education
 

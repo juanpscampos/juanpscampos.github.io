@@ -29,7 +29,7 @@ E-mail: lexjs19@nottingham.ac.uk , juanpascampos@gmail.com
  Secondary: Macroeconomics.
 
 
-[Download CV](files/cv.pdf){ .btn .btn-primary .rounded }
+[Download CV](files/cv.pdf){ .btn .btn-primary .rounded target="_blank" }
 
 :::
 

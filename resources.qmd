@@ -4,6 +4,8 @@ title: "Resources"
 
 ## Interactive Debt Sustainability Calculator
 
+The dynamics of public debt in an open economy can be summarized by a linear relationship between the debt-to-GDP ratio and the primary balance required for stabilization. The slope of this relationship depends on the interest–growth differential and on exchange-rate valuation effects. Countries with a high share of foreign-currency debt face steeper debt-stabilizing primary balance schedules, making them more vulnerable to exchange-rate shocks even in the absence of fiscal slippages.
+
 Use the sliders below to input values (in percentages where applicable) and calculate the required primary balance to stabilize debt in an open economy.
 
 ```{ojs}
@@ -28,7 +30,18 @@ i_w = (1 - a) * i_d + a * i_f
 phi_star = (1 + i_w + eps * a * (1 + i_f)) / ((1 + g) * (1 + pi))
 required_pb = (phi_star - 1) * d
 
-html`<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+// Generate data for the plot
+data = Array.from({length: 101}, (_, i) => {
+  let debt = i / 50; // 0 to 2
+  let pb = (phi_star - 1) * debt;
+  return {debt: debt * 100, pb: pb * 100};
+});
+
+html`<div style="background-color: #A2AEBB; color: black; padding: 10px; border-radius: 5px; font-weight: bold; margin-bottom: 20px; font-size: 14px;">
+  The required primary balance as a share of GDP is ${(required_pb * 100).toFixed(2)}%.
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: auto auto; gap: 10px; margin-bottom: 20px; font-size: 12px;">
   <div>${viewof debt_ratio}</div>
   <div>${viewof domestic_interest}</div>
   <div>${viewof foreign_interest}</div>
@@ -36,10 +49,22 @@ html`<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margi
   <div>${viewof epsilon}</div>
   <div>${viewof growth_rate}</div>
   <div>${viewof inflation_rate}</div>
-</div>
-<div style="background-color: #A2AEBB; color: black; padding: 10px; border-radius: 5px; font-weight: bold;">
-  The required primary balance as a share of GDP is ${(required_pb * 100).toFixed(2)}%.
 </div>`
+
+Plot = import("@observablehq/plot")
+
+plot = Plot.plot({
+  width: 600,
+  height: 400,
+  x: {label: "Debt-to-GDP Ratio (%)"},
+  y: {label: "Required Primary Balance (% of GDP)"},
+  marks: [
+    Plot.line(data, {x: "debt", y: "pb", stroke: "#11143D"}),
+    Plot.dot([{debt: d * 100, pb: required_pb * 100}], {x: "debt", y: "pb", fill: "#A2AEBB", r: 5})
+  ]
+})
+
+plot
 ```
 
 ## Public Debt Dynamics
