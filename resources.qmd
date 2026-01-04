@@ -4,9 +4,9 @@ title: "Resources"
 
 ## Public Debt Dynamics
 
-### Debt Dynamics in a Closed Economy
+### Closed Economy
 
-Consider an economy that does not trade with the rest of the world. Let $Y_t$ denote real GDP in year $t$, and $P_t$ the GDP deflator. Nominal GDP is given by the product $P_t Y_t$. Let $\pi_t$ denote the rate of inflation between $t-1$ and $t$, defined as:
+Consider an economy that does not trade with the rest of the world. Let $Y_t$ denote nominal GDP in year $t$, and $P_t$ the GDP deflator. Nominal GDP is given by the product $P_t Y_t$. Let $\pi_t$ denote the rate of inflation between $t-1$ and $t$, defined as:
 
 $$
 \pi_t = \frac{P_t}{P_{t-1}} - 1.
@@ -28,7 +28,7 @@ $$
 G_t + i_t D_{t-1} = R_t + (D_t - D_{t-1}) + (M_t - M_{t-1}) + (AF_t - AF_{t-1}).
 $$
 
-Identity (1) implies that government expenditures are financed through net tax and non-tax revenues from the private sector, $R_t$, money creation $(M_t - M_{t-1}) \equiv \Delta M_t$, issuance of interest-bearing debt $(D_t - D_{t-1})$, and changes in financial assets $(AF_t - AF_{t-1}) \equiv \Delta AF_t$.
+Government budget identity implies that government expenditures are financed through net tax and non-tax revenues from the private sector, $R_t$, money creation $(M_t - M_{t-1}) \equiv \Delta M_t$, issuance of interest-bearing debt $(D_t - D_{t-1})$, and changes in financial assets $(AF_t - AF_{t-1}) \equiv \Delta AF_t$.
 
 The fiscal balance of the government is defined as the difference between revenues and total expenditures, $R_t - (G_t + i_t D_{t-1})$. The **primary balance**, $PB_t$, is defined as revenues minus expenditures excluding interest payments:
 
@@ -36,7 +36,7 @@ $$
 PB_t = R_t - G_t.
 $$
 
-Rearranging equation (1) and solving for $D_t$ yields:
+Rearranging equation government budget and solving for $D_t$ yields:
 
 $$
 D_t = (1 + i_t)D_{t-1} - (PB_t - \Delta M_t - \Delta AF_t).
@@ -105,7 +105,7 @@ The debt-stabilizing primary balance depends on several factors:
 
 ---
 
-### Debt Dynamics in an Open Economy
+### Open Economy
 
 The analysis of debt sustainability in an open economy is similar to the closed-economy case. In this economy, the government can access external financing. Total public debt at time $t$ is given by:
 
@@ -167,4 +167,20 @@ $$
 Define the weighted average nominal interest rate as:
 
 $$
-i_t^w = (1-\alpha_{t-1})i_t^d_
+i_t^w = (1-\alpha_{t-1})i_t^d_t
+$$
+
+## Interactive Debt Sustainability Calculator
+
+Use the sliders below to input values and calculate the required primary balance to stabilize debt in a closed economy.
+
+```{ojs}
+viewof debt_ratio = Inputs.range([0, 2], {value: 0.5, step: 0.01, label: "Debt-to-GDP Ratio (d)"})
+viewof real_interest = Inputs.range([0, 0.1], {value: 0.03, step: 0.001, label: "Real Interest Rate (r)"})
+viewof growth_rate = Inputs.range([0, 0.1], {value: 0.02, step: 0.001, label: "Growth Rate (g)"})
+
+phi = (1 + real_interest) / (1 + growth_rate)
+required_pb = (phi - 1) * debt_ratio
+
+md`The required primary balance as a share of GDP is **${required_pb.toFixed(4)}**.`
+```
