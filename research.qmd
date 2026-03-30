@@ -7,5 +7,9 @@ title: "Research"
 
 - ***Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies*** joint with Valencia, O., Rodriguez, L. A (R & R Economic Modelling) [Working Paper](https://publications.iadb.org/en/fiscal-rules-and-optimal-currency-composition-sovereign-debt-emerging-economies)
 
+### Work in Progress
+
+- ***The value of formal employment*** This paper estimates the value workers place on formal employment in Mexico. Using household survey micro-data, I document that: first, workers change informal and formal job frequently where 84% of informal-to-formal transitions occur within the same firm. Second, informal-to-formal job changes raise hourly wages by 5.4% on average; however, workers changing jobs within the firm experience no gain as the wage increase is fully compensated by the increase in hours of work. Third, the effect is heterogeneous over the wage distribution, near 45% of workers experience hourly wage cuts. To rationalize these facts, I build a partial-equilibrium wage-posting model to decompose the motives to choose a formal or informal job in wage and non-wage attributes, such as job flexibility, job mobility prospects, job stability and severance pay.  Structural estimates suggest important differences of formal job valuation and drivers across skill level and gender where women value more jobs stability while men wages and job mobility. The model serves to evaluate the effect of labour flexibility, employment protection and minimum wage.
+
 
 
