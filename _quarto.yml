@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: .
+  render:
+    - "*.qmd"
+    - "!resources.qmd"   # parked: interactive calculator unverified
 
 website:
   title: "Juan Pablo Siachoque Campos"
