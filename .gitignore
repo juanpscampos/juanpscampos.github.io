@@ -1,3 +1,10 @@
 /.quarto/
 **/*.quarto_ipynb
 outputs/
+
+# OS junk
+.DS_Store
+**/.DS_Store
+__MACOSX/
+**/__MACOSX/
+Thumbs.db
