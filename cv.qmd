@@ -3,7 +3,7 @@ title: "Curriculum Vitae"
 description: "PhD candidate in Economics at the University of Nottingham, on the job market in 2026–27. Previously at the OECD, the Inter-American Development Bank and the Latin American Reserve Fund."
 ---
 
-[Download full CV (PDF)](files/cv.pdf){.btn target="_blank"}
+[Download full CV (PDF)](files/Documents/CV.pdf){.btn target="_blank"}
 
 ## Education
 

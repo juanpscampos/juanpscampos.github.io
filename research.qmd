@@ -7,7 +7,7 @@ description: "My research is in applied and theoretical labour economics, in par
 
 ::: {.paper}
 ::: {.paper-title}
-Wages, amenities and the value of a formal employment: A structural approach for Mexico
+Wages, amenities and the value of formal employment: A structural approach for Mexico [Job Market Paper](files/Research/Siachoque_JMP_2026.pdf){.paper-link target="_blank"}
 :::
 
 <details class="abstract">
@@ -35,8 +35,6 @@ employment drops by roughly 8–14 percentage points for men and about 1–2 poi
 for women, while informality and non-employment increase.
 </div>
 </details>
-
-[Download paper (PDF)](files/Research/Siachoque_JMP_2026.pdf){.btn target="_blank"}
 :::
 
 ## Work in Progress
@@ -51,11 +49,10 @@ The wage growth penalty of informal employment
 
 ::: {.paper}
 ::: {.paper-title}
-Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies
+Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies [Working paper (IDB)](https://publications.iadb.org/en/fiscal-rules-and-optimal-currency-composition-sovereign-debt-emerging-economies){.paper-link target="_blank"}
 :::
 ::: {.paper-meta}
 with Oscar Mauricio Valencia and Luis Alberto Rodriguez · Revise & Resubmit, *Economic Modelling*
 :::
 
-[Working paper (IDB)](https://publications.iadb.org/en/fiscal-rules-and-optimal-currency-composition-sovereign-debt-emerging-economies){.btn target="_blank"}
 :::

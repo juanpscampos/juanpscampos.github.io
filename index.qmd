@@ -9,12 +9,12 @@ include-in-header: head-person.html
 
 ::: {}
 
-![](files/Foto_Juan_Siachoque_compress.jpg){.profile-img fig-alt="Juan Pablo Siachoque Campos"}
+![](files/Fotos/Foto_Juan_Siachoque_compress.jpg){.profile-img fig-alt="Juan Pablo Siachoque Campos"}
 
 ::: {.social-row}
-[![X](files/logo-white.png){fig-alt="X"}](https://x.com/juanpscampos)
-[![LinkedIn](files/InBug-White.png){fig-alt="LinkedIn"}](https://www.linkedin.com/in/juanpscampos/)
-[![GitHub](files/github-mark-white.png){fig-alt="GitHub"}](https://github.com/juanpscampos)
+[![X](files/Logos/logo-white.png){fig-alt="X"}](https://x.com/juanpscampos)
+[![LinkedIn](files/Logos/InBug-White.png){fig-alt="LinkedIn"}](https://www.linkedin.com/in/juanpscampos/)
+[![GitHub](files/Logos/github-mark-white.png){fig-alt="GitHub"}](https://github.com/juanpscampos)
 :::
 
 ::: {.affiliation}
@@ -35,19 +35,13 @@ job market in 2026–27.
 
 My research interests cover quantitative and applied labour economics, with a particular focus on search and matching in the context of informal employment. I also have research experience in fiscal policy and sovereign debt.
 
-Before starting my doctorate I worked at the
-[OECD](https://www.oecd.org/), the
+During my doctorate I worked in the [OECD](https://www.oecd.org/en/about/directorates/directorate-for-employment-labour-and-social-affairs.html) and before in the
 [Inter-American Development Bank](https://www.iadb.org/en) and the
 [Latin American Reserve Fund](https://flar.com/en/home/).
 :::
 
-### Research interests
-
-- **Primary:** Labour economics — informality, search frictions, wage dynamics
-- **Secondary:** Macroeconomics — fiscal policy and sovereign debt
-
-[Download CV](files/cv.pdf){.btn target="_blank"}
-[Read my research](research.qmd){.btn}
+[CV](files/Documents/CV.pdf){.btn target="_blank"}
+[Job Market Paper](files/Research/Siachoque_JMP_2026.pdf){.btn target="_blank"}
 
 :::
 

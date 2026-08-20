@@ -128,15 +128,11 @@ h2 {
 
 // --- Research entries ----------------------------------------------
 .paper {
-  background-color: $navy-surface;
-  border: 1px solid $border-soft;
-  border-left: 3px solid $accent;
-  border-radius: $border-radius;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
   max-width: 68ch;
 
   .paper-title {
+    font-style: italic;
     font-weight: 600;
     font-size: 1.08rem;
     margin-bottom: 0.35rem;
@@ -148,6 +144,21 @@ h2 {
     margin-bottom: 0.75rem;
   }
   p { margin-bottom: 0.6rem; }
+}
+
+// Plain-text PDF link sitting beside the (italic) paper title
+.paper-title .paper-link {
+  font-style: normal;
+  margin-left: 0.55rem;
+  white-space: nowrap;
+}
+
+.paper-link {
+  color: $accent;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
 }
 
 // Collapsible abstracts
@@ -205,6 +216,6 @@ details.abstract {
 // --- Mobile ---------------------------------------------------------
 @media (max-width: 600px) {
   main.content > * { max-width: 100% !important; }
-  .paper, .contact-card { padding: 1rem 1.1rem; }
+  .contact-card { padding: 1rem 1.1rem; }
   .social-row { justify-content: flex-start; }
 }

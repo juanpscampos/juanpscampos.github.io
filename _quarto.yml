@@ -4,12 +4,13 @@ project:
   render:
     - "*.qmd"
     - "!resources.qmd"   # parked: interactive calculator unverified
+    - "!contact.qmd"     # unpublished: contact details live in the footer
 
 website:
   title: "Juan Pablo Siachoque Campos"
   description: "PhD candidate in Economics at the University of Nottingham. Research on informal employment, labour markets and macroeconomics."
   site-url: "https://juanpscampos.github.io"
-  favicon: files/Foto_Juan_Siachoque_compress.jpg
+  favicon: files/Fotos/Foto_Juan_Siachoque_compress.jpg
   navbar:
     right:
       - href: index.qmd
@@ -18,8 +19,6 @@ website:
         text: Research
       - href: cv.qmd
         text: CV
-      - href: contact.qmd
-        text: Contact
   open-graph: true
   twitter-card:
     creator: "@juanpscampos"
