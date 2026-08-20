@@ -1,19 +1,15 @@
 ---
 title: "Curriculum Vitae"
-description: "Curriculum vitae of Juan Pablo Siachoque Campos, PhD candidate in Economics at the University of Nottingham. Previously OECD, Inter-American Development Bank and FLAR."
+description: "PhD candidate in Economics at the University of Nottingham, on the job market in 2026–27. Previously at the OECD, the Inter-American Development Bank and the Latin American Reserve Fund."
 ---
 
 [Download full CV (PDF)](files/cv.pdf){.btn target="_blank"}
-
-PhD candidate in Economics at the University of Nottingham, on the job market
-in 2026–27. Previously at the OECD, the Inter-American Development Bank and the
-Latin American Reserve Fund.
 
 ## Education
 
 - **PhD in Economics candidate** (2022 - Expected Spring 2027)  
   University of Nottingham, Nottingham, UK  
-  Thesis title: The value of formal employment.  
+  Thesis title: Wages, amenities and the value of formal employment: A structural approach for Mexico.  
   Supervisors: Richard Upward, Jake Bradley.
 
 - **Master of Research in Economics** (2021 - 2022)  
