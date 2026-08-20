@@ -1,0 +1,12 @@
+---
+title: "Resources"
+description: "Notes on applied econometrics methods, written up as short standalone explanations."
+---
+
+::: {.lede}
+Short write-ups of methods I use in my own work, aimed at being readable in one sitting.
+:::
+
+## Applied Econometrics
+
+- [The Age–Period–Cohort Problem](apc.qmd)

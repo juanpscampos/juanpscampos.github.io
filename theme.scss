@@ -211,6 +211,66 @@ details.abstract {
 .table { color: $ink; }
 .table > :not(caption) > * > * { border-color: $border-soft; }
 
+// --- Section sidebar (Resources) -------------------------------------
+// Quarto's docked left sidebar, scoped to resources/ pages via the `id`
+// in _quarto.yml. Everything here is keyed to #quarto-sidebar, NOT the
+// bare .sidebar class: the right-hand TOC is `.sidebar.margin-sidebar`
+// and shares that class, so an unscoped rule would restyle both.
+//
+// Out of the box Quarto gives these links `color: inherit` and no
+// background, so they are legible on the dark ground but completely
+// flat: no separation from the content, no active state, and the
+// section heading looks identical to the pages under it.
+#quarto-sidebar {
+  border-right: 1px solid $border-soft;
+
+  .sidebar-item {
+    margin-bottom: 0.1rem;
+  }
+
+  // Leaf entries: one page each.
+  .sidebar-item-text.sidebar-link {
+    color: $ink-soft;
+    font-size: 0.93rem;
+    line-height: 1.45;
+    padding: 0.3rem 0 0.3rem 0.7rem;
+    border-left: 2px solid transparent;
+    transition: color .15s ease, border-color .15s ease;
+
+    &:hover {
+      color: $accent-hover;
+      border-left-color: $border-soft;
+    }
+
+    // The page you are on.
+    &.active {
+      color: $accent;
+      font-weight: 600;
+      border-left-color: $accent;
+    }
+  }
+
+  // Group headings ("Applied Econometrics"). These carry .sidebar-link
+  // too, so they need to win against the rule above.
+  .sidebar-item-section > .sidebar-item-container > .sidebar-item-text {
+    color: $ink-soft;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-left: none;
+    padding-left: 0;
+    margin-top: 1.1rem;
+
+    &:hover { color: $ink; }
+  }
+
+  .sidebar-item-toggle {
+    color: $ink-soft;
+    &:hover { color: $accent; }
+  }
+}
+
 // --- Footer ---------------------------------------------------------
 .nav-footer {
   border-top: 1px solid $border-soft;

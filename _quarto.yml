@@ -3,8 +3,12 @@ project:
   output-dir: .
   render:
     - "*.qmd"
-    - "!resources.qmd"   # parked: interactive calculator unverified
-    - "!contact.qmd"     # unpublished: contact details live in the footer
+    - "!contact.qmd"       # unpublished: contact details live in the footer
+    # Resources section is hidden while in progress. The negation is explicit
+    # because the website project type otherwise auto-discovers nested .qmd.
+    # To unhide: swap the next line back to "resources/*.qmd" and uncomment
+    # the navbar entry and sidebar block below.
+    - "!resources/*.qmd"
 
 website:
   title: "Juan Pablo Siachoque Campos"
@@ -17,8 +21,21 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      # - href: resources/index.qmd
+      #   text: Resources
       - href: cv.qmd
         text: CV
+  # Scoped by id: this sidebar appears only on resources/ pages, so Home,
+  # Research and CV stay sidebar-free. Commented out with the section.
+  # sidebar:
+  #   - id: resources
+  #     title: "Resources"
+  #     style: docked
+  #     contents:
+  #       - resources/index.qmd
+  #       - section: "Applied Econometrics"
+  #         contents:
+  #           - resources/apc.qmd
   open-graph: true
   twitter-card:
     creator: "@juanpscampos"

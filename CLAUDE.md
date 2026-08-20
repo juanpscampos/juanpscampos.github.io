@@ -39,7 +39,11 @@ whether such a cap binds against the column at all is a coin flip.
 
 `.lede` and `.abstract-body` keep their own tighter measures; the JMP abstract
 is the only genuinely long-form block on the site. `body-classes: wide-page`
-clears those two.
+clears those two — the mechanism still works, but no page currently uses it.
+
+Pages under `resources/` carry a docked left sidebar, which makes Quarto swap in
+a different `page-columns` grid template. Their body column is slightly narrower
+than the sidebar-free pages; that is expected for a docs-style section.
 
 ## Layout conventions
 
@@ -66,11 +70,42 @@ reference resolves:
 grep -oh 'files/[^"'"'"' )>]*' *.html | sort -u | while read f; do [ -f "$f" ] || echo "MISSING $f"; done
 ```
 
+## Resources section — currently hidden
+
+`resources/` is the only nested content directory. **It is work in progress and
+hidden**: excluded from the render list, with the navbar entry and sidebar block
+commented out in `_quarto.yml`. The sources are kept and edited normally.
+
+To unhide: swap `"!resources/*.qmd"` back to `"resources/*.qmd"` in the render
+list and uncomment the navbar entry and the `sidebar:` block. The exclusion has
+to be explicit — the website project type auto-discovers nested `.qmd`, so
+simply dropping the include line is not enough.
+
+It has a navbar tab and a docked left sidebar, both configured in `_quarto.yml`
+— the sidebar is scoped by `id: resources`, so it appears on those pages only.
+
+Adding a topic means two edits: a new `resources/<topic>.qmd`, and an entry under
+the sidebar's `contents:`. The render list needs `"resources/*.qmd"` explicitly;
+do not rely on `"*.qmd"` to recurse.
+
+Sidebar styling lives under `// --- Section sidebar ---` in `theme.scss`, keyed
+to `#quarto-sidebar`. Keep it keyed that way: the right-hand TOC is
+`.sidebar.margin-sidebar` and shares the bare `.sidebar` class, so an unscoped
+rule restyles both.
+
+Nested pages resolve assets with a `../` prefix. Quarto rewrites `site_libs`
+automatically, but **plain Markdown links are not rewritten** — a `resources/`
+page pointing at shared assets needs `../files/...`.
+
 ## Unpublished pages
 
-`resources.qmd` (interactive calculator unverified) and `contact.qmd` are
-excluded from the render list in `_quarto.yml` and their `.html` deleted. The
-sources are kept so either can be restored. Contact details live in the footer.
+`contact.qmd` is excluded from the render list in `_quarto.yml` and its `.html`
+deleted; the source is kept so it can be restored. Contact details live in the
+footer.
+
+The old `resources.qmd` (a debt-sustainability page with an unverified OJS
+calculator) was deleted when the `resources/` section took the name. Recover it
+with `git show cd8aff2^:resources.qmd` if it is ever wanted.
 
 ## Gotchas
 

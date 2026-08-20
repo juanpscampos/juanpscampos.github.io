@@ -1,0 +1,54 @@
+---
+title: "The Age–Period–Cohort Problem"
+description: ""
+---
+
+::: {.lede}
+
+:::
+
+## The problem
+
+Suppose that we want to decompose tha wages of a worker in three components:
+
+$$
+\begin{equation}
+  w_{iat} = \alpha_a + \tau_t + \gamma_c + \epsilon_{iat}
+\end{equation}
+$$
+where $a$ is the age of the worker; the life-cycle effect, $t$ is the time period; the year effect, and $c$ is the cohort of the worker; cohort effect. The problem is that age, period and cohort are linearly dependent $t= a + c$
+
+A worker born in 1990 (cohort) and observed in 2020 (period) is 30 years old (age). The next year, the same worker born in 1990 will be 31 years old, thus the period $t$ can be easily computed as the sum $a + c$.
+
+## The Deaton–Paxson normalisation
+
+The approach of Deaton and Paxson (1994) and Deaton (1997) is to normalise the time effects by imposing the following restrictions:
+
+$$
+\sum \tau_t = 0, \quad \sum (t-\bar{t})\tau=0
+$$
+
+Thus, the period effects have zero mean and no linear trend. The $t$ is interpreted as transitory macroeconomic shocks around the long-run trend.
+
+
+## Implementation
+
+Deaton implements this using dummy variables for each age, period and cohort. Denote $d_t$ the usual dummy for period $t$, so $d_{t=1}$ is a vector of ones for all observations in time $1$ and zeros otherwise. The transformed dummies for $t=3,...,T$ are then defined as:
+
+$$
+d^*_t = d_t - \left[ (t-1)*d_2 - (t-2)*d_1 \right]
+$$
+
+
+## Application
+
+In a mincerian wage equation, consider that instead of the age effect we are interested in the experience effect:
+$$
+\log(w_{iat}) = \theta s_{ict} + f(x_{ict}) + \xi_c  + \gamma__t + \epsilon_{ict}
+$$
+
+where $\alpha_a=f(x_{ict})$.
+
+## References
+
+<!-- content -->
