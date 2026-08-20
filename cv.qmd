@@ -1,5 +1,6 @@
 ---
 title: "Curriculum Vitae"
+description: "Curriculum vitae of Juan Pablo Siachoque Campos, PhD candidate in Economics at the University of Nottingham. Previously OECD, Inter-American Development Bank and FLAR."
 ---
 
 [Download full CV (PDF)](files/cv.pdf){.btn target="_blank"}

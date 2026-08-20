@@ -15,10 +15,12 @@ website:
         text: Research
       - href: cv.qmd
         text: CV
-      - href: resources.qmd
-        text: Resources
       - href: contact.qmd
         text: Contact
+  open-graph: true
+  twitter-card:
+    creator: "@juanpscampos"
+    card-style: summary
   page-footer:
     left: "&copy; 2026 Juan Pablo Siachoque Campos"
     right:

@@ -1,12 +1,10 @@
 ---
 title: "Research"
+description: "Research by Juan Pablo Siachoque Campos on informal employment, search frictions and wage dynamics, including the job market paper on the value of formal employment in Mexico."
 ---
 
-My research is about **informal employment**: why workers hold jobs without a
-contract or social security, what they give up by doing so, and what actually
-changes when they become formal. I combine large household panel surveys with
-structural search models. A second strand, from my time at the IDB, looks at
-fiscal rules and sovereign debt in emerging economies.
+My research is in applied and theoretical labour economics, in particular
+labour market transitions, employment dynamics and wages.
 
 ## Job Market Paper
 
@@ -14,14 +12,6 @@ fiscal rules and sovereign debt in emerging economies.
 ::: {.paper-title}
 Wages, amenities and the value of a formal employment: A structural approach for Mexico
 :::
-::: {.paper-meta}
-Sole authored · August 2026
-:::
-
-In Mexico, most workers who move from informal to formal employment never
-change employer — the firm they already work for simply registers them. This
-paper asks what formal status is worth to a worker, given that the wage gain
-turns out to be small.
 
 <details class="abstract">
 <summary>Abstract</summary>
@@ -49,9 +39,6 @@ for women, while informality and non-employment increase.
 </div>
 </details>
 
-*JEL:* J24, J31, J46, J64, O17<br>
-*Keywords:* informal employment, search frictions, compensating differentials
-
 [Download paper (PDF)](files/Research/Siachoque_JMP_2026.pdf){.btn target="_blank"}
 :::
 
@@ -61,17 +48,9 @@ for women, while informality and non-employment increase.
 ::: {.paper-title}
 The wage growth penalty of informal employment
 :::
-::: {.paper-meta}
-Sole authored · Estimates complete, draft in preparation
 :::
 
-Do informal jobs not only pay less, but also grow more slowly? I estimate
-life-cycle wage profiles separately by formality status, using the
-Hause–Lillard–Topel approach together with an Oaxaca decomposition to separate
-differences in returns to experience from differences in worker composition.
-:::
-
-## Publications
+## Publications (Pre-PhD)
 
 ::: {.paper}
 ::: {.paper-title}
@@ -80,12 +59,6 @@ Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Econ
 ::: {.paper-meta}
 with Oscar Mauricio Valencia and Luis Alberto Rodriguez · Revise & Resubmit, *Economic Modelling*
 :::
-
-How should an emerging economy split its sovereign debt between domestic and
-foreign currency, and how do fiscal rules change that choice?
-
-*JEL:* E61, E62, H63<br>
-*Keywords:* sovereign debt management, fiscal rules, currency composition
 
 [Working paper (IDB)](https://publications.iadb.org/en/fiscal-rules-and-optimal-currency-composition-sovereign-debt-emerging-economies){.btn target="_blank"}
 :::

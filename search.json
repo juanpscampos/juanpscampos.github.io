@@ -88,27 +88,27 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "My research is about informal employment: why workers hold jobs without a contract or social security, what they give up by doing so, and what actually changes when they become formal. I combine large household panel surveys with structural search models. A second strand, from my time at the IDB, looks at fiscal rules and sovereign debt in emerging economies."
+    "text": "My research is in applied and theoretical labour economics, in particular labour market transitions, employment dynamics and wages."
   },
   {
     "objectID": "research.html#job-market-paper",
     "href": "research.html#job-market-paper",
     "title": "Research",
     "section": "Job Market Paper",
-    "text": "Job Market Paper\n\n\nWages, amenities and the value of a formal employment: A structural approach for Mexico\n\n\nSole authored · August 2026\n\nIn Mexico, most workers who move from informal to formal employment never change employer — the firm they already work for simply registers them. This paper asks what formal status is worth to a worker, given that the wage gain turns out to be small.\n\n\nAbstract\n\n\nWorkers move frequently between formal and informal jobs, yet the motives behind these transitions remain debated. Using household survey data from Mexico, I document that most informal-to-formal transitions take place within the same firm, consistent with a foot-in-the-door route to formality, and that sustained formalisation raises hourly wages only modestly. The wage gain is concentrated among low-skilled workers, even though skilled workers formalise at higher rates. These limited wage gains suggest that workers accept formal employment for reasons beyond current wage. I estimate a two-sector search model in which informal workers receive formal offers both from outside firms and from their current employer, and decompose the value of formal employment into a sector-specific non-wage amenity, future job opportunities, and employment stability. The estimated formal-sector amenity is worth 29.4% of the median informal wage for skilled men and 15.2% for skilled women, is negative for low-skilled women, and is not statistically significant for low-skilled men. Future formal job opportunities also contribute substantially to acceptance of formality; the within-firm foot-in-the-door channel is worth about 16% of the median informal wage for skilled men and about 4% for low-skilled women, and is quantitatively important for employment. In the absence of this channel, formal employment drops by roughly 8–14 percentage points for men and about 1–2 points for women, while informality and non-employment increase.\n\n\nJEL: J24, J31, J46, J64, O17 Keywords: informal employment, search frictions, compensating differentials\nDownload paper (PDF)"
+    "text": "Job Market Paper\n\n\nWages, amenities and the value of a formal employment: A structural approach for Mexico\n\n\n\nAbstract\n\n\nWorkers move frequently between formal and informal jobs, yet the motives behind these transitions remain debated. Using household survey data from Mexico, I document that most informal-to-formal transitions take place within the same firm, consistent with a foot-in-the-door route to formality, and that sustained formalisation raises hourly wages only modestly. The wage gain is concentrated among low-skilled workers, even though skilled workers formalise at higher rates. These limited wage gains suggest that workers accept formal employment for reasons beyond current wage. I estimate a two-sector search model in which informal workers receive formal offers both from outside firms and from their current employer, and decompose the value of formal employment into a sector-specific non-wage amenity, future job opportunities, and employment stability. The estimated formal-sector amenity is worth 29.4% of the median informal wage for skilled men and 15.2% for skilled women, is negative for low-skilled women, and is not statistically significant for low-skilled men. Future formal job opportunities also contribute substantially to acceptance of formality; the within-firm foot-in-the-door channel is worth about 16% of the median informal wage for skilled men and about 4% for low-skilled women, and is quantitatively important for employment. In the absence of this channel, formal employment drops by roughly 8–14 percentage points for men and about 1–2 points for women, while informality and non-employment increase.\n\n\nDownload paper (PDF)"
   },
   {
     "objectID": "research.html#work-in-progress",
     "href": "research.html#work-in-progress",
     "title": "Research",
     "section": "Work in Progress",
-    "text": "Work in Progress\n\n\nThe wage growth penalty of informal employment\n\n\nSole authored · Estimates complete, draft in preparation\n\nDo informal jobs not only pay less, but also grow more slowly? I estimate life-cycle wage profiles separately by formality status, using the Hause–Lillard–Topel approach together with an Oaxaca decomposition to separate differences in returns to experience from differences in worker composition."
+    "text": "Work in Progress\n\n\nThe wage growth penalty of informal employment"
   },
   {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
+    "objectID": "research.html#publications-pre-phd",
+    "href": "research.html#publications-pre-phd",
     "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\n\nFiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies\n\n\nwith Oscar Mauricio Valencia and Luis Alberto Rodriguez · Revise & Resubmit, Economic Modelling\n\nHow should an emerging economy split its sovereign debt between domestic and foreign currency, and how do fiscal rules change that choice?\nJEL: E61, E62, H63 Keywords: sovereign debt management, fiscal rules, currency composition\nWorking paper (IDB)"
+    "section": "Publications (Pre-PhD)",
+    "text": "Publications (Pre-PhD)\n\n\nFiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies\n\n\nwith Oscar Mauricio Valencia and Luis Alberto Rodriguez · Revise & Resubmit, Economic Modelling\n\nWorking paper (IDB)"
   }
 ]

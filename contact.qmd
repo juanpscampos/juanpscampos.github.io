@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description: "Contact details for Juan Pablo Siachoque Campos, School of Economics, University of Nottingham."
 toc: false
 ---
 

@@ -1,6 +1,8 @@
 ---
-toc: false
 pagetitle: "Juan Pablo Siachoque Campos"
+description: "Juan Pablo Siachoque Campos is a PhD candidate in Economics at the University of Nottingham, on the job market in 2026-27. Research on informal employment, labour markets and macroeconomics."
+toc: false
+include-in-header: head-person.html
 ---
 
 ::: {layout="[[2,3]]"}
