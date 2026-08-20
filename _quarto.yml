@@ -4,18 +4,35 @@ project:
 
 website:
   title: "Juan Pablo Siachoque Campos"
+  description: "PhD candidate in Economics at the University of Nottingham. Research on informal employment, labour markets and macroeconomics."
+  site-url: "https://juanpscampos.github.io"
+  favicon: files/Foto_Juan_Siachoque_compress.jpg
   navbar:
     right:
       - href: index.qmd
         text: Home
-      - href: cv.qmd
-        text: CV
       - href: research.qmd
         text: Research
+      - href: cv.qmd
+        text: CV
+      - href: resources.qmd
+        text: Resources
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    left: "&copy; 2026 Juan Pablo Siachoque Campos"
+    right:
+      - text: "Email"
+        href: "mailto:lexjs19@nottingham.ac.uk"
+      - text: "LinkedIn"
+        href: "https://www.linkedin.com/in/juanpscampos/"
+      - text: "X"
+        href: "https://x.com/juanpscampos"
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: [cosmo, theme.scss]
     toc: true
-
+    toc-title: "On this page"
+    smooth-scroll: true
+    link-external-newwindow: true

@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Resources – Juan Pablo Siachoque Campos</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -65,17 +68,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./files/Foto_Juan_Siachoque_compress.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ec6207e7bf2ecf489eef398f5bb949c3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,11 +106,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 <script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
 <link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -136,10 +140,9 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed wide-page quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -161,12 +164,20 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
+    <a class="nav-link active" href="./resources.html" aria-current="page"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -215,51 +226,52 @@ window.Quarto = {
 </header>
 
 
+<p>Teaching and reference material. The calculator below is the one I use to show students how quickly the arithmetic of debt sustainability turns on the interest–growth differential and on the currency composition of debt.</p>
 <section id="interactive-debt-sustainability-calculator" class="level2">
 <h2 class="anchored" data-anchor-id="interactive-debt-sustainability-calculator">Interactive Debt Sustainability Calculator</h2>
 <p>The dynamics of public debt in an open economy can be summarized by a linear relationship between the debt-to-GDP ratio and the primary balance required for stabilization. The slope of this relationship depends on the interest–growth differential and on exchange-rate valuation effects. Countries with a high share of foreign-currency debt face steeper debt-stabilizing primary balance schedules, making them more vulnerable to exchange-rate shocks even in the absence of fiscal slippages.</p>
 <p>Use the sliders below to input values (in percentages where applicable) and calculate the required primary balance to stabilize debt in an open economy.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="13" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 12;"><span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>viewof debt_ratio <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">200</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">50</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Debt-to-GDP Ratio (%)"</span>})</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>viewof domestic_interest <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">20</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">5</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Domestic Nominal Interest Rate (%)"</span>})</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>viewof foreign_interest <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">20</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">4</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Foreign Nominal Interest Rate (%)"</span>})</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>viewof alpha <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">30</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Share of Foreign Currency Debt (%)"</span>})</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>viewof epsilon <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="op">-</span><span class="dv">10</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Nominal Depreciation Rate (%)"</span>})</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>viewof growth_rate <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Growth Rate (%)"</span>})</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>viewof inflation_rate <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">3</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Inflation Rate (%)"</span>})</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> debt_ratio <span class="op">/</span> <span class="dv">100</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>i_d <span class="op">=</span> domestic_interest <span class="op">/</span> <span class="dv">100</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>i_f <span class="op">=</span> foreign_interest <span class="op">/</span> <span class="dv">100</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> alpha <span class="op">/</span> <span class="dv">100</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>eps <span class="op">=</span> epsilon <span class="op">/</span> <span class="dv">100</span></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>g <span class="op">=</span> growth_rate <span class="op">/</span> <span class="dv">100</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>pi <span class="op">=</span> inflation_rate <span class="op">/</span> <span class="dv">100</span></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>i_w <span class="op">=</span> (<span class="dv">1</span> <span class="op">-</span> a) <span class="op">*</span> i_d <span class="op">+</span> a <span class="op">*</span> i_f</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>phi_star <span class="op">=</span> (<span class="dv">1</span> <span class="op">+</span> i_w <span class="op">+</span> eps <span class="op">*</span> a <span class="op">*</span> (<span class="dv">1</span> <span class="op">+</span> i_f)) <span class="op">/</span> ((<span class="dv">1</span> <span class="op">+</span> g) <span class="op">*</span> (<span class="dv">1</span> <span class="op">+</span> pi))</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>required_pb <span class="op">=</span> (phi_star <span class="op">-</span> <span class="dv">1</span>) <span class="op">*</span> d</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="co">// Generate data for the plot</span></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>({<span class="dt">length</span><span class="op">:</span> <span class="dv">101</span>}<span class="op">,</span> (_<span class="op">,</span> i) <span class="kw">=&gt;</span> {</span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> debt <span class="op">=</span> i <span class="op">/</span> <span class="dv">50</span><span class="op">;</span> <span class="co">// 0 to 2</span></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> pb <span class="op">=</span> (phi_star <span class="op">-</span> <span class="dv">1</span>) <span class="op">*</span> debt<span class="op">;</span></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> {<span class="dt">debt</span><span class="op">:</span> debt <span class="op">*</span> <span class="dv">100</span><span class="op">,</span> <span class="dt">pb</span><span class="op">:</span> pb <span class="op">*</span> <span class="dv">100</span>}<span class="op">;</span></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div style="background-color: #A2AEBB; color: black; padding: 10px; border-radius: 5px; font-weight: bold; margin-bottom: 20px; font-size: 14px;"&gt;</span></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="vs">  The required primary balance as a share of GDP is </span><span class="sc">${</span>(required_pb <span class="op">*</span> <span class="dv">100</span>)<span class="op">.</span><span class="fu">toFixed</span>(<span class="dv">2</span>)<span class="sc">}</span><span class="vs">%.</span></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;</span></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;div style="display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: auto auto; gap: 10px; margin-bottom: 20px; font-size: 12px;"&gt;</span></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof debt_ratio<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof domestic_interest<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof foreign_interest<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof alpha<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof epsilon<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof growth_rate<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof inflation_rate<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="16" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 15;"><span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>viewof debt_ratio <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">200</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">50</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Debt-to-GDP Ratio (%)"</span>})</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>viewof domestic_interest <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">20</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">5</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Domestic Nominal Interest Rate (%)"</span>})</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>viewof foreign_interest <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">20</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">4</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Foreign Nominal Interest Rate (%)"</span>})</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>viewof alpha <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">30</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Share of Foreign Currency Debt (%)"</span>})</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>viewof epsilon <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="op">-</span><span class="dv">10</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Nominal Depreciation Rate (%)"</span>})</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>viewof growth_rate <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Growth Rate (%)"</span>})</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>viewof inflation_rate <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">3</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Inflation Rate (%)"</span>})</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> debt_ratio <span class="op">/</span> <span class="dv">100</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>i_d <span class="op">=</span> domestic_interest <span class="op">/</span> <span class="dv">100</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>i_f <span class="op">=</span> foreign_interest <span class="op">/</span> <span class="dv">100</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> alpha <span class="op">/</span> <span class="dv">100</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>eps <span class="op">=</span> epsilon <span class="op">/</span> <span class="dv">100</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>g <span class="op">=</span> growth_rate <span class="op">/</span> <span class="dv">100</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>pi <span class="op">=</span> inflation_rate <span class="op">/</span> <span class="dv">100</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>i_w <span class="op">=</span> (<span class="dv">1</span> <span class="op">-</span> a) <span class="op">*</span> i_d <span class="op">+</span> a <span class="op">*</span> i_f</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>phi_star <span class="op">=</span> (<span class="dv">1</span> <span class="op">+</span> i_w <span class="op">+</span> eps <span class="op">*</span> a <span class="op">*</span> (<span class="dv">1</span> <span class="op">+</span> i_f)) <span class="op">/</span> ((<span class="dv">1</span> <span class="op">+</span> g) <span class="op">*</span> (<span class="dv">1</span> <span class="op">+</span> pi))</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>required_pb <span class="op">=</span> (phi_star <span class="op">-</span> <span class="dv">1</span>) <span class="op">*</span> d</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="co">// Generate data for the plot</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>({<span class="dt">length</span><span class="op">:</span> <span class="dv">101</span>}<span class="op">,</span> (_<span class="op">,</span> i) <span class="kw">=&gt;</span> {</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> debt <span class="op">=</span> i <span class="op">/</span> <span class="dv">50</span><span class="op">;</span> <span class="co">// 0 to 2</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> pb <span class="op">=</span> (phi_star <span class="op">-</span> <span class="dv">1</span>) <span class="op">*</span> debt<span class="op">;</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> {<span class="dt">debt</span><span class="op">:</span> debt <span class="op">*</span> <span class="dv">100</span><span class="op">,</span> <span class="dt">pb</span><span class="op">:</span> pb <span class="op">*</span> <span class="dv">100</span>}<span class="op">;</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div style="background-color: #8FC1E3; color: #11143D; padding: 10px; border-radius: 5px; font-weight: bold; margin-bottom: 20px; font-size: 14px;"&gt;</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="vs">  The required primary balance as a share of GDP is </span><span class="sc">${</span>(required_pb <span class="op">*</span> <span class="dv">100</span>)<span class="op">.</span><span class="fu">toFixed</span>(<span class="dv">2</span>)<span class="sc">}</span><span class="vs">%.</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;div style="display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: auto auto; gap: 10px; margin-bottom: 20px; font-size: 12px;"&gt;</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof debt_ratio<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof domestic_interest<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof foreign_interest<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof alpha<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof epsilon<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof growth_rate<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div&gt;</span><span class="sc">${</span>viewof inflation_rate<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -393,20 +405,20 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="54" data-source-offset="-1906"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 53;"><span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>Plot <span class="op">=</span> <span class="im">import</span>(<span class="st">"@observablehq/plot"</span>)</span>
-<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>plot <span class="op">=</span> Plot<span class="op">.</span><span class="fu">plot</span>({</span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>  <span class="dt">width</span><span class="op">:</span> <span class="dv">600</span><span class="op">,</span></span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>  <span class="dt">height</span><span class="op">:</span> <span class="dv">400</span><span class="op">,</span></span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Debt-to-GDP Ratio (%)"</span>}<span class="op">,</span></span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Required Primary Balance (% of GDP)"</span>}<span class="op">,</span></span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">line</span>(data<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"debt"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"pb"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#11143D"</span>})<span class="op">,</span></span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">dot</span>([{<span class="dt">debt</span><span class="op">:</span> d <span class="op">*</span> <span class="dv">100</span><span class="op">,</span> <span class="dt">pb</span><span class="op">:</span> required_pb <span class="op">*</span> <span class="dv">100</span>}]<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"debt"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"pb"</span><span class="op">,</span> <span class="dt">fill</span><span class="op">:</span> <span class="st">"#A2AEBB"</span><span class="op">,</span> <span class="dt">r</span><span class="op">:</span> <span class="dv">5</span>})</span>
-<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>  ]</span>
-<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>})</span>
-<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>plot</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="57" data-source-offset="-1867"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 56;"><span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>plot <span class="op">=</span> Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>  <span class="dt">width</span><span class="op">:</span> <span class="dv">640</span><span class="op">,</span></span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>  <span class="dt">height</span><span class="op">:</span> <span class="dv">400</span><span class="op">,</span></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>  <span class="dt">style</span><span class="op">:</span> {<span class="dt">background</span><span class="op">:</span> <span class="st">"transparent"</span><span class="op">,</span> <span class="dt">color</span><span class="op">:</span> <span class="st">"#E8EEF4"</span><span class="op">,</span> <span class="dt">fontSize</span><span class="op">:</span> <span class="st">"13px"</span>}<span class="op">,</span></span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>  <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Debt-to-GDP Ratio (%)"</span>}<span class="op">,</span></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Required Primary Balance (% of GDP)"</span>}<span class="op">,</span></span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">line</span>(data<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"debt"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"pb"</span><span class="op">,</span> <span class="dt">stroke</span><span class="op">:</span> <span class="st">"#8FC1E3"</span><span class="op">,</span> <span class="dt">strokeWidth</span><span class="op">:</span> <span class="dv">2</span>})<span class="op">,</span></span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">dot</span>([{<span class="dt">debt</span><span class="op">:</span> d <span class="op">*</span> <span class="dv">100</span><span class="op">,</span> <span class="dt">pb</span><span class="op">:</span> required_pb <span class="op">*</span> <span class="dv">100</span>}]<span class="op">,</span> {<span class="dt">x</span><span class="op">:</span> <span class="st">"debt"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"pb"</span><span class="op">,</span> <span class="dt">fill</span><span class="op">:</span> <span class="st">"#FFFFFF"</span><span class="op">,</span> <span class="dt">r</span><span class="op">:</span> <span class="fl">5.5</span>})</span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>  ]</span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>plot</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-20" data-nodetype="declaration">
@@ -416,14 +428,7 @@ window.Quarto = {
 </div>
 <div class="cell-output cell-output-display">
 <div>
-<div id="ojs-cell-1-21" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-22" data-nodetype="expression">
+<div id="ojs-cell-1-21" data-nodetype="expression">
 
 </div>
 </div>
@@ -565,7 +570,7 @@ pb_t^* = (\phi_t^* - 1)d_{t-1},
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBkZWJ0X3JhdGlvID0gSW5wdXRzLnJhbmdlKFswLCAyMDBdLCB7dmFsdWU6IDUwLCBzdGVwOiAxLCBsYWJlbDogXCJEZWJ0LXRvLUdEUCBSYXRpbyAoJSlcIn0pXHJcbnZpZXdvZiBkb21lc3RpY19pbnRlcmVzdCA9IElucHV0cy5yYW5nZShbMCwgMjBdLCB7dmFsdWU6IDUsIHN0ZXA6IDAuMSwgbGFiZWw6IFwiRG9tZXN0aWMgTm9taW5hbCBJbnRlcmVzdCBSYXRlICglKVwifSlcclxudmlld29mIGZvcmVpZ25faW50ZXJlc3QgPSBJbnB1dHMucmFuZ2UoWzAsIDIwXSwge3ZhbHVlOiA0LCBzdGVwOiAwLjEsIGxhYmVsOiBcIkZvcmVpZ24gTm9taW5hbCBJbnRlcmVzdCBSYXRlICglKVwifSlcclxudmlld29mIGFscGhhID0gSW5wdXRzLnJhbmdlKFswLCAxMDBdLCB7dmFsdWU6IDMwLCBzdGVwOiAxLCBsYWJlbDogXCJTaGFyZSBvZiBGb3JlaWduIEN1cnJlbmN5IERlYnQgKCUpXCJ9KVxyXG52aWV3b2YgZXBzaWxvbiA9IElucHV0cy5yYW5nZShbLTEwLCAxMF0sIHt2YWx1ZTogMiwgc3RlcDogMC4xLCBsYWJlbDogXCJOb21pbmFsIERlcHJlY2lhdGlvbiBSYXRlICglKVwifSlcclxudmlld29mIGdyb3d0aF9yYXRlID0gSW5wdXRzLnJhbmdlKFswLCAxMF0sIHt2YWx1ZTogMiwgc3RlcDogMC4xLCBsYWJlbDogXCJHcm93dGggUmF0ZSAoJSlcIn0pXHJcbnZpZXdvZiBpbmZsYXRpb25fcmF0ZSA9IElucHV0cy5yYW5nZShbMCwgMTBdLCB7dmFsdWU6IDMsIHN0ZXA6IDAuMSwgbGFiZWw6IFwiSW5mbGF0aW9uIFJhdGUgKCUpXCJ9KVxyXG5cclxuZCA9IGRlYnRfcmF0aW8gLyAxMDBcclxuaV9kID0gZG9tZXN0aWNfaW50ZXJlc3QgLyAxMDBcclxuaV9mID0gZm9yZWlnbl9pbnRlcmVzdCAvIDEwMFxyXG5hID0gYWxwaGEgLyAxMDBcclxuZXBzID0gZXBzaWxvbiAvIDEwMFxyXG5nID0gZ3Jvd3RoX3JhdGUgLyAxMDBcclxucGkgPSBpbmZsYXRpb25fcmF0ZSAvIDEwMFxyXG5cclxuaV93ID0gKDEgLSBhKSAqIGlfZCArIGEgKiBpX2ZcclxucGhpX3N0YXIgPSAoMSArIGlfdyArIGVwcyAqIGEgKiAoMSArIGlfZikpIC8gKCgxICsgZykgKiAoMSArIHBpKSlcclxucmVxdWlyZWRfcGIgPSAocGhpX3N0YXIgLSAxKSAqIGRcclxuXHJcbi8vIEdlbmVyYXRlIGRhdGEgZm9yIHRoZSBwbG90XHJcbmRhdGEgPSBBcnJheS5mcm9tKHtsZW5ndGg6IDEwMX0sIChfLCBpKSA9PiB7XHJcbiAgbGV0IGRlYnQgPSBpIC8gNTA7IC8vIDAgdG8gMlxyXG4gIGxldCBwYiA9IChwaGlfc3RhciAtIDEpICogZGVidDtcclxuICByZXR1cm4ge2RlYnQ6IGRlYnQgKiAxMDAsIHBiOiBwYiAqIDEwMH07XHJcbn0pO1xyXG5cclxuaHRtbGA8ZGl2IHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjogI0EyQUVCQjsgY29sb3I6IGJsYWNrOyBwYWRkaW5nOiAxMHB4OyBib3JkZXItcmFkaXVzOiA1cHg7IGZvbnQtd2VpZ2h0OiBib2xkOyBtYXJnaW4tYm90dG9tOiAyMHB4OyBmb250LXNpemU6IDE0cHg7XCI+XHJcbiAgVGhlIHJlcXVpcmVkIHByaW1hcnkgYmFsYW5jZSBhcyBhIHNoYXJlIG9mIEdEUCBpcyAkeyhyZXF1aXJlZF9wYiAqIDEwMCkudG9GaXhlZCgyKX0lLlxyXG48L2Rpdj5cclxuXHJcbjxkaXYgc3R5bGU9XCJkaXNwbGF5OiBncmlkOyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCg0LCAxZnIpOyBncmlkLXRlbXBsYXRlLXJvd3M6IGF1dG8gYXV0bzsgZ2FwOiAxMHB4OyBtYXJnaW4tYm90dG9tOiAyMHB4OyBmb250LXNpemU6IDEycHg7XCI+XHJcbiAgPGRpdj4ke3ZpZXdvZiBkZWJ0X3JhdGlvfTwvZGl2PlxyXG4gIDxkaXY+JHt2aWV3b2YgZG9tZXN0aWNfaW50ZXJlc3R9PC9kaXY+XHJcbiAgPGRpdj4ke3ZpZXdvZiBmb3JlaWduX2ludGVyZXN0fTwvZGl2PlxyXG4gIDxkaXY+JHt2aWV3b2YgYWxwaGF9PC9kaXY+XHJcbiAgPGRpdj4ke3ZpZXdvZiBlcHNpbG9ufTwvZGl2PlxyXG4gIDxkaXY+JHt2aWV3b2YgZ3Jvd3RoX3JhdGV9PC9kaXY+XHJcbiAgPGRpdj4ke3ZpZXdvZiBpbmZsYXRpb25fcmF0ZX08L2Rpdj5cclxuPC9kaXY+YFxyXG5cclxuUGxvdCA9IGltcG9ydChcIkBvYnNlcnZhYmxlaHEvcGxvdFwiKVxyXG5cclxucGxvdCA9IFBsb3QucGxvdCh7XHJcbiAgd2lkdGg6IDYwMCxcclxuICBoZWlnaHQ6IDQwMCxcclxuICB4OiB7bGFiZWw6IFwiRGVidC10by1HRFAgUmF0aW8gKCUpXCJ9LFxyXG4gIHk6IHtsYWJlbDogXCJSZXF1aXJlZCBQcmltYXJ5IEJhbGFuY2UgKCUgb2YgR0RQKVwifSxcclxuICBtYXJrczogW1xyXG4gICAgUGxvdC5saW5lKGRhdGEsIHt4OiBcImRlYnRcIiwgeTogXCJwYlwiLCBzdHJva2U6IFwiIzExMTQzRFwifSksXHJcbiAgICBQbG90LmRvdChbe2RlYnQ6IGQgKiAxMDAsIHBiOiByZXF1aXJlZF9wYiAqIDEwMH1dLCB7eDogXCJkZWJ0XCIsIHk6IFwicGJcIiwgZmlsbDogXCIjQTJBRUJCXCIsIHI6IDV9KVxyXG4gIF1cclxufSlcclxuXHJcbnBsb3RcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdkZWJ0X3JhdGlvJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2RvbWVzdGljX2ludGVyZXN0JykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2ZvcmVpZ25faW50ZXJlc3QnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnYWxwaGEnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnZXBzaWxvbicpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdncm93dGhfcmF0ZScpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdpbmZsYXRpb25fcmF0ZScpIn1dfQ==
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBkZWJ0X3JhdGlvID0gSW5wdXRzLnJhbmdlKFswLCAyMDBdLCB7dmFsdWU6IDUwLCBzdGVwOiAxLCBsYWJlbDogXCJEZWJ0LXRvLUdEUCBSYXRpbyAoJSlcIn0pXG52aWV3b2YgZG9tZXN0aWNfaW50ZXJlc3QgPSBJbnB1dHMucmFuZ2UoWzAsIDIwXSwge3ZhbHVlOiA1LCBzdGVwOiAwLjEsIGxhYmVsOiBcIkRvbWVzdGljIE5vbWluYWwgSW50ZXJlc3QgUmF0ZSAoJSlcIn0pXG52aWV3b2YgZm9yZWlnbl9pbnRlcmVzdCA9IElucHV0cy5yYW5nZShbMCwgMjBdLCB7dmFsdWU6IDQsIHN0ZXA6IDAuMSwgbGFiZWw6IFwiRm9yZWlnbiBOb21pbmFsIEludGVyZXN0IFJhdGUgKCUpXCJ9KVxudmlld29mIGFscGhhID0gSW5wdXRzLnJhbmdlKFswLCAxMDBdLCB7dmFsdWU6IDMwLCBzdGVwOiAxLCBsYWJlbDogXCJTaGFyZSBvZiBGb3JlaWduIEN1cnJlbmN5IERlYnQgKCUpXCJ9KVxudmlld29mIGVwc2lsb24gPSBJbnB1dHMucmFuZ2UoWy0xMCwgMTBdLCB7dmFsdWU6IDIsIHN0ZXA6IDAuMSwgbGFiZWw6IFwiTm9taW5hbCBEZXByZWNpYXRpb24gUmF0ZSAoJSlcIn0pXG52aWV3b2YgZ3Jvd3RoX3JhdGUgPSBJbnB1dHMucmFuZ2UoWzAsIDEwXSwge3ZhbHVlOiAyLCBzdGVwOiAwLjEsIGxhYmVsOiBcIkdyb3d0aCBSYXRlICglKVwifSlcbnZpZXdvZiBpbmZsYXRpb25fcmF0ZSA9IElucHV0cy5yYW5nZShbMCwgMTBdLCB7dmFsdWU6IDMsIHN0ZXA6IDAuMSwgbGFiZWw6IFwiSW5mbGF0aW9uIFJhdGUgKCUpXCJ9KVxuXG5kID0gZGVidF9yYXRpbyAvIDEwMFxuaV9kID0gZG9tZXN0aWNfaW50ZXJlc3QgLyAxMDBcbmlfZiA9IGZvcmVpZ25faW50ZXJlc3QgLyAxMDBcbmEgPSBhbHBoYSAvIDEwMFxuZXBzID0gZXBzaWxvbiAvIDEwMFxuZyA9IGdyb3d0aF9yYXRlIC8gMTAwXG5waSA9IGluZmxhdGlvbl9yYXRlIC8gMTAwXG5cbmlfdyA9ICgxIC0gYSkgKiBpX2QgKyBhICogaV9mXG5waGlfc3RhciA9ICgxICsgaV93ICsgZXBzICogYSAqICgxICsgaV9mKSkgLyAoKDEgKyBnKSAqICgxICsgcGkpKVxucmVxdWlyZWRfcGIgPSAocGhpX3N0YXIgLSAxKSAqIGRcblxuLy8gR2VuZXJhdGUgZGF0YSBmb3IgdGhlIHBsb3RcbmRhdGEgPSBBcnJheS5mcm9tKHtsZW5ndGg6IDEwMX0sIChfLCBpKSA9PiB7XG4gIGxldCBkZWJ0ID0gaSAvIDUwOyAvLyAwIHRvIDJcbiAgbGV0IHBiID0gKHBoaV9zdGFyIC0gMSkgKiBkZWJ0O1xuICByZXR1cm4ge2RlYnQ6IGRlYnQgKiAxMDAsIHBiOiBwYiAqIDEwMH07XG59KTtcblxuaHRtbGA8ZGl2IHN0eWxlPVwiYmFja2dyb3VuZC1jb2xvcjogIzhGQzFFMzsgY29sb3I6ICMxMTE0M0Q7IHBhZGRpbmc6IDEwcHg7IGJvcmRlci1yYWRpdXM6IDVweDsgZm9udC13ZWlnaHQ6IGJvbGQ7IG1hcmdpbi1ib3R0b206IDIwcHg7IGZvbnQtc2l6ZTogMTRweDtcIj5cbiAgVGhlIHJlcXVpcmVkIHByaW1hcnkgYmFsYW5jZSBhcyBhIHNoYXJlIG9mIEdEUCBpcyAkeyhyZXF1aXJlZF9wYiAqIDEwMCkudG9GaXhlZCgyKX0lLlxuPC9kaXY+XG5cbjxkaXYgc3R5bGU9XCJkaXNwbGF5OiBncmlkOyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCg0LCAxZnIpOyBncmlkLXRlbXBsYXRlLXJvd3M6IGF1dG8gYXV0bzsgZ2FwOiAxMHB4OyBtYXJnaW4tYm90dG9tOiAyMHB4OyBmb250LXNpemU6IDEycHg7XCI+XG4gIDxkaXY+JHt2aWV3b2YgZGVidF9yYXRpb308L2Rpdj5cbiAgPGRpdj4ke3ZpZXdvZiBkb21lc3RpY19pbnRlcmVzdH08L2Rpdj5cbiAgPGRpdj4ke3ZpZXdvZiBmb3JlaWduX2ludGVyZXN0fTwvZGl2PlxuICA8ZGl2PiR7dmlld29mIGFscGhhfTwvZGl2PlxuICA8ZGl2PiR7dmlld29mIGVwc2lsb259PC9kaXY+XG4gIDxkaXY+JHt2aWV3b2YgZ3Jvd3RoX3JhdGV9PC9kaXY+XG4gIDxkaXY+JHt2aWV3b2YgaW5mbGF0aW9uX3JhdGV9PC9kaXY+XG48L2Rpdj5gXG5cbnBsb3QgPSBQbG90LnBsb3Qoe1xuICB3aWR0aDogNjQwLFxuICBoZWlnaHQ6IDQwMCxcbiAgc3R5bGU6IHtiYWNrZ3JvdW5kOiBcInRyYW5zcGFyZW50XCIsIGNvbG9yOiBcIiNFOEVFRjRcIiwgZm9udFNpemU6IFwiMTNweFwifSxcbiAgZ3JpZDogdHJ1ZSxcbiAgeDoge2xhYmVsOiBcIkRlYnQtdG8tR0RQIFJhdGlvICglKVwifSxcbiAgeToge2xhYmVsOiBcIlJlcXVpcmVkIFByaW1hcnkgQmFsYW5jZSAoJSBvZiBHRFApXCJ9LFxuICBtYXJrczogW1xuICAgIFBsb3QubGluZShkYXRhLCB7eDogXCJkZWJ0XCIsIHk6IFwicGJcIiwgc3Ryb2tlOiBcIiM4RkMxRTNcIiwgc3Ryb2tlV2lkdGg6IDJ9KSxcbiAgICBQbG90LmRvdChbe2RlYnQ6IGQgKiAxMDAsIHBiOiByZXF1aXJlZF9wYiAqIDEwMH1dLCB7eDogXCJkZWJ0XCIsIHk6IFwicGJcIiwgZmlsbDogXCIjRkZGRkZGXCIsIHI6IDUuNX0pXG4gIF1cbn0pXG5cbnBsb3RcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnZGVidF9yYXRpbycpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdkb21lc3RpY19pbnRlcmVzdCcpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdmb3JlaWduX2ludGVyZXN0JykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2FscGhhJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2Vwc2lsb24nKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnZ3Jvd3RoX3JhdGUnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnaW5mbGF0aW9uX3JhdGUnKSJ9XX0=
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
@@ -648,7 +653,7 @@ window._ojs.runtime.interpretFromScriptTags();
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/juanpscampos\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -662,6 +667,11 @@ window._ojs.runtime.interpretFromScriptTags();
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -976,8 +986,38 @@ window._ojs.runtime.interpretFromScriptTags();
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Juan Pablo Siachoque Campos</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:lexjs19@nottingham.ac.uk">
+<p>Email</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/juanpscampos/">
+<p>LinkedIn</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://x.com/juanpscampos">
+<p>X</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

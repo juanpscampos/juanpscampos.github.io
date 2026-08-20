@@ -1,0 +1,34 @@
+---
+title: "Contact"
+toc: false
+---
+
+I am always happy to hear from people working on informal employment, labour
+markets in developing economies, or fiscal policy — and from anyone who has
+read something here and wants to talk about it.
+
+::: {.contact-card}
+**Email**
+
+[lexjs19@nottingham.ac.uk](mailto:lexjs19@nottingham.ac.uk)<br>
+[juanpascampos@gmail.com](mailto:juanpascampos@gmail.com)
+:::
+
+::: {.contact-card}
+**Office**
+
+Office C35<br>
+Sir Clive Granger Building<br>
+School of Economics<br>
+University of Nottingham<br>
+University Park, Nottingham NG7 2RD<br>
+United Kingdom
+:::
+
+::: {.contact-card}
+**Elsewhere**
+
+[LinkedIn](https://www.linkedin.com/in/juanpscampos/)<br>
+[X / Twitter](https://x.com/juanpscampos)<br>
+[GitHub](https://github.com/juanpscampos)
+:::

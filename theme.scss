@@ -1,0 +1,210 @@
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------
+// Palette: softened dark navy.
+// #11143D is kept as the site's signature colour (navbar + footer).
+// Everything around it is lifted so long-form text is comfortable.
+// All foreground/background pairs verified at WCAG AA (>= 4.5:1).
+// ---------------------------------------------------------------
+
+$navy-deep:    #11143D;  // navbar, footer
+$navy-bg:      #1B3049;  // page background (lifted from #152D44)
+$navy-surface: #24405E;  // cards, paper entries
+$ink:          #E8EEF4;  // body text (off-white: avoids glare of pure #FFF)
+$ink-soft:     #A2AEBB;  // captions, dates, affiliations
+$accent:       #8FC1E3;  // links, active nav
+$accent-hover: #B6D8F0;
+$border-soft:  #35526F;
+
+// Bootstrap overrides
+$body-bg:      $navy-bg;
+$body-color:   $ink;
+$link-color:   $accent;
+$link-hover-color: $accent-hover;
+
+$font-size-root: 18px;
+$line-height-base: 1.7;
+$headings-font-weight: 600;
+$border-radius: 10px;
+
+$navbar-bg: $navy-deep;
+$navbar-fg: $ink;
+$navbar-hl: $accent;
+
+$footer-bg: $navy-deep;
+$footer-fg: $ink-soft;
+
+$code-bg: $navy-surface;
+$code-color: $accent-hover;
+
+/*-- scss:rules --*/
+
+// --- Reading width -------------------------------------------------
+// The single biggest readability win: cap prose at ~68 characters.
+// Pages that genuinely need width (the debt calculator) opt out with
+// the .wide class on the body via front matter.
+main.content {
+  > p, > ul, > ol, > blockquote, > h1, > h2, > h3, > h4, > h5, > h6,
+  > dl, > .callout, > details {
+    max-width: 68ch;
+  }
+}
+
+body.wide-page main.content {
+  > p, > ul, > ol, > h1, > h2, > h3, > h4, > h5, > h6 { max-width: none; }
+}
+
+// Body copy sits slightly lighter on a dark ground, where normal
+// weights optically thicken.
+p, li { font-weight: 350; }
+
+// --- Rhythm --------------------------------------------------------
+p  { margin-bottom: 1.15rem; }
+h2 { margin-top: 2.6rem; margin-bottom: 1rem; }
+h3 { margin-top: 2rem;   margin-bottom: 0.75rem; }
+ul { margin-top: 0.8rem; margin-bottom: 1.2rem; }
+li { margin-bottom: 0.4rem; }
+
+// --- Section rule under h2 -----------------------------------------
+h2 {
+  border-bottom: 1px solid $border-soft;
+  padding-bottom: 0.4rem;
+}
+
+// --- Buttons -------------------------------------------------------
+// Was #A2AEBB with white text (2.26:1 - illegible). Now 9.15:1.
+.btn, .btn-primary {
+  background-color: $accent;
+  border-color: $accent;
+  color: $navy-deep;
+  font-weight: 600;
+  border-radius: $border-radius;
+  padding: 0.5rem 1.15rem;
+  transition: background-color .15s ease, transform .15s ease;
+
+  &:hover, &:focus {
+    background-color: $accent-hover;
+    border-color: $accent-hover;
+    color: $navy-deep;
+    transform: translateY(-1px);
+  }
+}
+
+// --- Home page -----------------------------------------------------
+.profile-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.lede {
+  font-size: 1.12rem;
+  line-height: 1.75;
+  max-width: 62ch;
+}
+
+.affiliation {
+  color: $ink-soft;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+// Social icon row
+.social-row {
+  display: flex;
+  gap: 0.85rem;
+  align-items: center;
+  margin: 0.5rem 0 1.5rem 0;
+
+  img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+    transition: opacity .15s ease, transform .15s ease;
+  }
+  a:hover img { opacity: 1; transform: translateY(-2px); }
+}
+
+// --- Research entries ----------------------------------------------
+.paper {
+  background-color: $navy-surface;
+  border: 1px solid $border-soft;
+  border-left: 3px solid $accent;
+  border-radius: $border-radius;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  max-width: 68ch;
+
+  .paper-title {
+    font-weight: 600;
+    font-size: 1.08rem;
+    margin-bottom: 0.35rem;
+    line-height: 1.45;
+  }
+  .paper-meta {
+    color: $ink-soft;
+    font-size: 0.92rem;
+    margin-bottom: 0.75rem;
+  }
+  p { margin-bottom: 0.6rem; }
+}
+
+// Collapsible abstracts
+details.abstract {
+  margin-top: 0.85rem;
+
+  summary {
+    cursor: pointer;
+    color: $accent;
+    font-size: 0.92rem;
+    font-weight: 600;
+    list-style: none;
+    &::-webkit-details-marker { display: none; }
+    &::before { content: "▸ "; }
+  }
+  &[open] summary::before { content: "▾ "; }
+
+  .abstract-body {
+    margin-top: 0.7rem;
+    padding-left: 0.9rem;
+    border-left: 2px solid $border-soft;
+    font-size: 0.95rem;
+    color: darken($ink, 4%);
+  }
+}
+
+// --- CV ------------------------------------------------------------
+.cv-entry {
+  margin-bottom: 1.15rem;
+  .cv-role { font-weight: 600; }
+  .cv-where, .cv-when { color: $ink-soft; font-size: 0.94rem; }
+}
+
+// --- Contact -------------------------------------------------------
+.contact-card {
+  background-color: $navy-surface;
+  border: 1px solid $border-soft;
+  border-radius: $border-radius;
+  padding: 1.4rem 1.6rem;
+  max-width: 42ch;
+  margin-bottom: 1.25rem;
+}
+
+// --- Tables / code --------------------------------------------------
+.table { color: $ink; }
+.table > :not(caption) > * > * { border-color: $border-soft; }
+
+// --- Footer ---------------------------------------------------------
+.nav-footer {
+  border-top: 1px solid $border-soft;
+  font-size: 0.9rem;
+  a { color: $ink-soft; &:hover { color: $accent; } }
+}
+
+// --- Mobile ---------------------------------------------------------
+@media (max-width: 600px) {
+  main.content > * { max-width: 100% !important; }
+  .paper, .contact-card { padding: 1rem 1.1rem; }
+  .social-row { justify-content: flex-start; }
+}

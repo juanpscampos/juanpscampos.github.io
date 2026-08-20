@@ -1,35 +1,54 @@
 ---
+toc: false
+pagetitle: "Juan Pablo Siachoque Campos"
 ---
 
-::: {layout="[[1,2]]"}
+::: {layout="[[2,3]]"}
 
 ::: {}
 
-![](files/Foto_Juan_Siachoque_compress.jpg){width="600" height="600" .profile-img}
+![](files/Foto_Juan_Siachoque_compress.jpg){.profile-img fig-alt="Juan Pablo Siachoque Campos"}
 
+::: {.social-row}
+[![X](files/logo-white.png){fig-alt="X"}](https://x.com/juanpscampos)
+[![LinkedIn](files/InBug-White.png){fig-alt="LinkedIn"}](https://www.linkedin.com/in/juanpscampos/)
+[![GitHub](files/github-mark-white.png){fig-alt="GitHub"}](https://github.com/juanpscampos)
+:::
 
-
-[![X](files/logo-white.png){width=40 height=40}](https://x.com/juanpscampos)    [![Linkedin](files/InBug-White){width=40 height=40}](https://www.linkedin.com/in/juanpscampos/)
-
-
-
-###### Office C35, Sir Clive Granger Building,  The University of Nottingham, Nottingham, England, United Kingdom
-
-### E-mail: lexjs19@nottingham.ac.uk , juanpascampos@gmail.com
+::: {.affiliation}
+PhD Candidate in Economics<br>
+School of Economics<br>
+University of Nottingham
+:::
 
 :::
 
 ::: {#text-col}
 
-# Welcome to my website.
-#### I am a PhD student in Economics at the University of Nottingham. Before beginning my doctoral studies, I worked at several international institutions, including the Organisation for Economic Co-operation and Development ([OECD](https://www.oecd.org/)), the Inter-American Development Bank ([IDB](https://www.iadb.org/en)), and the Latin American Reserve Fund ([FLAR](https://flar.com/en/home/)).
+# Juan Pablo Siachoque Campos
 
-### Research Interests:
-#### Main: Applied and theoretical labour economics.  
-#### Secondary: Macroeconomics.
+::: {.lede}
+I am a PhD candidate in Economics at the **University of Nottingham**, on the
+job market in 2026–27.
 
+I study **informal employment** — jobs without a contract or social security —
+and what changes for a worker when the firm they already work for finally
+registers them. My job market paper asks why so many workers stay in informal
+jobs, and what a formal job is really worth once you count more than the wage.
 
-[Download CV](files/cv.pdf){ .btn .btn-primary .rounded target="_blank" }
+Before starting my doctorate I worked at the
+[OECD](https://www.oecd.org/), the
+[Inter-American Development Bank](https://www.iadb.org/en) and the
+[Latin American Reserve Fund](https://flar.com/en/home/).
+:::
+
+### Research interests
+
+- **Primary:** Labour economics — informality, search frictions, wage dynamics
+- **Secondary:** Macroeconomics — fiscal policy and sovereign debt
+
+[Download CV](files/cv.pdf){.btn target="_blank"}
+[Read my research](research.qmd){.btn}
 
 :::
 

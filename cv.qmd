@@ -2,7 +2,11 @@
 title: "Curriculum Vitae"
 ---
 
-Download my full CV here: [Download CV](files/cv.pdf){ .btn .btn-primary target="_blank" }
+[Download full CV (PDF)](files/cv.pdf){.btn target="_blank"}
+
+PhD candidate in Economics at the University of Nottingham, on the job market
+in 2026–27. Previously at the OECD, the Inter-American Development Bank and the
+Latin American Reserve Fund.
 
 ## Education
 

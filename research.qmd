@@ -2,14 +2,88 @@
 title: "Research"
 ---
 
+My research is about **informal employment**: why workers hold jobs without a
+contract or social security, what they give up by doing so, and what actually
+changes when they become formal. I combine large household panel surveys with
+structural search models. A second strand, from my time at the IDB, looks at
+fiscal rules and sovereign debt in emerging economies.
 
-### Working Papers
+## Job Market Paper
 
-- ***Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies*** joint with Valencia, O., Rodriguez, L. A (R & R Economic Modelling) [Working Paper](https://publications.iadb.org/en/fiscal-rules-and-optimal-currency-composition-sovereign-debt-emerging-economies)
+::: {.paper}
+::: {.paper-title}
+Wages, amenities and the value of a formal job: A structural approach for Mexico
+:::
+::: {.paper-meta}
+Sole authored · Draft, 2026
+:::
 
-### Work in Progress
+In Mexico, most workers who move from informal to formal employment never
+change employer — the firm they already work for simply registers them. This
+paper asks what that formal status is worth, given that the wage gain is small.
 
-- ***The value of formal employment*** This paper estimates the value workers place on formal employment in Mexico. Using household survey micro-data, I document that: first, workers change informal and formal job frequently where 84% of informal-to-formal transitions occur within the same firm. Second, informal-to-formal job changes raise hourly wages by 5.4% on average; however, workers changing jobs within the firm experience no gain as the wage increase is fully compensated by the increase in hours of work. Third, the effect is heterogeneous over the wage distribution, near 45% of workers experience hourly wage cuts. To rationalize these facts, I build a partial-equilibrium wage-posting model to decompose the motives to choose a formal or informal job in wage and non-wage attributes, such as job flexibility, job mobility prospects, job stability and severance pay.  Structural estimates suggest important differences of formal job valuation and drivers across skill level and gender where women value more jobs stability while men wages and job mobility. The model serves to evaluate the effect of labour flexibility, employment protection and minimum wage.
+<details class="abstract">
+<summary>Abstract</summary>
+<div class="abstract-body">
+In Mexico most moves from informal to formal employment happen without a change
+of employer: the same firm registers a worker it already employs. Using the
+rotating panel of the National Survey of Occupation and Employment (2005–2025),
+I show that 77% of informal-to-formal transitions take place within the firm and
+that such formalisation raises hourly wages by only about 5%. The gain accrues
+to low-skilled workers even though skilled workers formalise at higher rates,
+which suggests that workers accept formal status for reasons beyond the wage. I
+estimate a two-sector search model that decomposes the value of a formal job
+into the formal-sector amenity, future job opportunities and job stability, and
+in which formal offers reach informal workers both from outside firms and from
+their current employer — a foot in the door to formality. The estimated amenity
+is worth 29.4% of the median informal wage to skilled men and 15.2% to skilled
+women, is negative for low-skilled women, and cannot be distinguished from zero
+for low-skilled men. The foot-in-the-door channel is worth a further 4 to 16% of
+the median informal wage, and it cuts both ways: because a worker can wait to be
+registered in place, the same channel that supplies most entries into formality
+also raises the value of staying informal. Closing it lowers formal employment
+by 8 to 14 percentage points among men, part of that through withdrawal from
+employment rather than a move into informal work.
+</div>
+</details>
 
+*JEL:* J24, J31, J46, J64, O17<br>
+*Keywords:* informal employment, search frictions, compensating differentials
 
+Draft available on request.
+:::
 
+## Work in Progress
+
+::: {.paper}
+::: {.paper-title}
+The wage growth penalty of informal employment
+:::
+::: {.paper-meta}
+Sole authored · Estimates complete, draft in preparation
+:::
+
+Do informal jobs not only pay less, but also grow more slowly? I estimate
+life-cycle wage profiles separately by formality status, using the
+Hause–Lillard–Topel approach together with an Oaxaca decomposition to separate
+differences in returns to experience from differences in worker composition.
+:::
+
+## Publications
+
+::: {.paper}
+::: {.paper-title}
+Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies
+:::
+::: {.paper-meta}
+with Oscar Mauricio Valencia and Luis Alberto Rodriguez · Revise & Resubmit, *Economic Modelling*
+:::
+
+How should an emerging economy split its sovereign debt between domestic and
+foreign currency, and how do fiscal rules change that choice?
+
+*JEL:* E61, E62, H63<br>
+*Keywords:* sovereign debt management, fiscal rules, currency composition
+
+[Working paper (IDB)](https://publications.iadb.org/en/fiscal-rules-and-optimal-currency-composition-sovereign-debt-emerging-economies){.btn target="_blank"}
+:::

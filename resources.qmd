@@ -1,6 +1,9 @@
 ---
 title: "Resources"
+body-classes: wide-page
 ---
+
+Teaching and reference material. The calculator below is the one I use to show students how quickly the arithmetic of debt sustainability turns on the interest–growth differential and on the currency composition of debt.
 
 ## Interactive Debt Sustainability Calculator
 
@@ -37,7 +40,7 @@ data = Array.from({length: 101}, (_, i) => {
   return {debt: debt * 100, pb: pb * 100};
 });
 
-html`<div style="background-color: #A2AEBB; color: black; padding: 10px; border-radius: 5px; font-weight: bold; margin-bottom: 20px; font-size: 14px;">
+html`<div style="background-color: #8FC1E3; color: #11143D; padding: 10px; border-radius: 5px; font-weight: bold; margin-bottom: 20px; font-size: 14px;">
   The required primary balance as a share of GDP is ${(required_pb * 100).toFixed(2)}%.
 </div>
 
@@ -51,16 +54,16 @@ html`<div style="background-color: #A2AEBB; color: black; padding: 10px; border-
   <div>${viewof inflation_rate}</div>
 </div>`
 
-Plot = import("@observablehq/plot")
-
 plot = Plot.plot({
-  width: 600,
+  width: 640,
   height: 400,
+  style: {background: "transparent", color: "#E8EEF4", fontSize: "13px"},
+  grid: true,
   x: {label: "Debt-to-GDP Ratio (%)"},
   y: {label: "Required Primary Balance (% of GDP)"},
   marks: [
-    Plot.line(data, {x: "debt", y: "pb", stroke: "#11143D"}),
-    Plot.dot([{debt: d * 100, pb: required_pb * 100}], {x: "debt", y: "pb", fill: "#A2AEBB", r: 5})
+    Plot.line(data, {x: "debt", y: "pb", stroke: "#8FC1E3", strokeWidth: 2}),
+    Plot.dot([{debt: d * 100, pb: required_pb * 100}], {x: "debt", y: "pb", fill: "#FFFFFF", r: 5.5})
   ]
 })
 
