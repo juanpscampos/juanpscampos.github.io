@@ -12,45 +12,47 @@ fiscal rules and sovereign debt in emerging economies.
 
 ::: {.paper}
 ::: {.paper-title}
-Wages, amenities and the value of a formal job: A structural approach for Mexico
+Wages, amenities and the value of a formal employment: A structural approach for Mexico
 :::
 ::: {.paper-meta}
-Sole authored · Draft, 2026
+Sole authored · August 2026
 :::
 
 In Mexico, most workers who move from informal to formal employment never
 change employer — the firm they already work for simply registers them. This
-paper asks what that formal status is worth, given that the wage gain is small.
+paper asks what formal status is worth to a worker, given that the wage gain
+turns out to be small.
 
 <details class="abstract">
 <summary>Abstract</summary>
 <div class="abstract-body">
-In Mexico most moves from informal to formal employment happen without a change
-of employer: the same firm registers a worker it already employs. Using the
-rotating panel of the National Survey of Occupation and Employment (2005–2025),
-I show that 77% of informal-to-formal transitions take place within the firm and
-that such formalisation raises hourly wages by only about 5%. The gain accrues
-to low-skilled workers even though skilled workers formalise at higher rates,
-which suggests that workers accept formal status for reasons beyond the wage. I
-estimate a two-sector search model that decomposes the value of a formal job
-into the formal-sector amenity, future job opportunities and job stability, and
-in which formal offers reach informal workers both from outside firms and from
-their current employer — a foot in the door to formality. The estimated amenity
-is worth 29.4% of the median informal wage to skilled men and 15.2% to skilled
-women, is negative for low-skilled women, and cannot be distinguished from zero
-for low-skilled men. The foot-in-the-door channel is worth a further 4 to 16% of
-the median informal wage, and it cuts both ways: because a worker can wait to be
-registered in place, the same channel that supplies most entries into formality
-also raises the value of staying informal. Closing it lowers formal employment
-by 8 to 14 percentage points among men, part of that through withdrawal from
-employment rather than a move into informal work.
+Workers move frequently between formal and informal jobs, yet the motives behind
+these transitions remain debated. Using household survey data from Mexico, I
+document that most informal-to-formal transitions take place within the same
+firm, consistent with a foot-in-the-door route to formality, and that sustained
+formalisation raises hourly wages only modestly. The wage gain is concentrated
+among low-skilled workers, even though skilled workers formalise at higher rates.
+These limited wage gains suggest that workers accept formal employment for
+reasons beyond current wage. I estimate a two-sector search model in which
+informal workers receive formal offers both from outside firms and from their
+current employer, and decompose the value of formal employment into a
+sector-specific non-wage amenity, future job opportunities, and employment
+stability. The estimated formal-sector amenity is worth 29.4% of the median
+informal wage for skilled men and 15.2% for skilled women, is negative for
+low-skilled women, and is not statistically significant for low-skilled men.
+Future formal job opportunities also contribute substantially to acceptance of
+formality; the within-firm foot-in-the-door channel is worth about 16% of the
+median informal wage for skilled men and about 4% for low-skilled women, and is
+quantitatively important for employment. In the absence of this channel, formal
+employment drops by roughly 8–14 percentage points for men and about 1–2 points
+for women, while informality and non-employment increase.
 </div>
 </details>
 
 *JEL:* J24, J31, J46, J64, O17<br>
 *Keywords:* informal employment, search frictions, compensating differentials
 
-Draft available on request.
+[Download paper (PDF)](files/Research/Siachoque_JMP_2026.pdf){.btn target="_blank"}
 :::
 
 ## Work in Progress
