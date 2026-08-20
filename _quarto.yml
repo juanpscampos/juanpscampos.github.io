@@ -36,6 +36,12 @@ website:
 format:
   html:
     theme: [cosmo, theme.scss]
+    # The single width knob for the whole site. Body text fills this
+    # column (see the "Reading width" note in theme.scss), so raising it
+    # widens every page and narrows the outer gutters together.
+    # Quarto's default is 800px.
+    grid:
+      body-width: 900px
     toc: true
     toc-title: "On this page"
     smooth-scroll: true

@@ -7,7 +7,7 @@ description: "My research is in applied and theoretical labour economics, in par
 
 ::: {.paper}
 ::: {.paper-title}
-Wages, amenities and the value of formal employment: A structural approach for Mexico [Job Market Paper](files/Research/Siachoque_JMP_2026.pdf){.paper-link target="_blank"}
+Wages, amenities and the value of formal employment: A structural approach for Mexico. [Job Market Paper](files/Research/Siachoque_JMP_2026.pdf){.paper-link target="_blank"}
 :::
 
 <details class="abstract">

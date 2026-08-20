@@ -40,18 +40,21 @@ $code-color: $accent-hover;
 /*-- scss:rules --*/
 
 // --- Reading width -------------------------------------------------
-// The single biggest readability win: cap prose at ~68 characters.
-// Pages that genuinely need width (the debt calculator) opt out with
-// the .wide class on the body via front matter.
-main.content {
-  > p, > ul, > ol, > blockquote, > h1, > h2, > h3, > h4, > h5, > h6,
-  > dl, > .callout, > details {
-    max-width: 68ch;
-  }
-}
-
-body.wide-page main.content {
-  > p, > ul, > ol, > h1, > h2, > h3, > h4, > h5, > h6 { max-width: none; }
+// Width is driven by ONE knob: `grid.body-width` in _quarto.yml.
+// Body text fills that column, so every page measures the same.
+//
+// This replaces a `main.content > p { max-width: 68ch }` rule. The child
+// combinator only matched direct children, but Quarto wraps everything
+// under a `##` heading in a <section> — so the cap silently missed 13
+// paragraphs and 7 lists on the CV and 5 on Research, and the three tabs
+// rendered at three different widths. Capping by grid column instead is
+// deterministic: no dependence on how wide a `ch` happens to be.
+//
+// Only genuinely long-form blocks keep a tighter measure of their own
+// (.lede, .abstract-body below). Pages that want everything edge to edge
+// opt out with `body-classes: wide-page` in the front matter.
+body.wide-page {
+  .lede, .abstract-body { max-width: none; }
 }
 
 // Body copy sits slightly lighter on a dark ground, where normal
@@ -101,7 +104,7 @@ h2 {
 .lede {
   font-size: 1.12rem;
   line-height: 1.75;
-  max-width: 62ch;
+  max-width: 72ch;
 }
 
 .affiliation {
@@ -129,7 +132,6 @@ h2 {
 // --- Research entries ----------------------------------------------
 .paper {
   margin-bottom: 1.75rem;
-  max-width: 68ch;
 
   .paper-title {
     font-style: italic;
@@ -176,12 +178,15 @@ details.abstract {
   }
   &[open] summary::before { content: "▾ "; }
 
+  // The one genuinely long block on the site: keep it to a readable
+  // measure even though the column around it is wider.
   .abstract-body {
     margin-top: 0.7rem;
     padding-left: 0.9rem;
     border-left: 2px solid $border-soft;
     font-size: 0.95rem;
     color: darken($ink, 4%);
+    max-width: 74ch;
   }
 }
 
