@@ -3,11 +3,11 @@ title: "Research"
 description: "My research is in applied and theoretical labour economics, in particular labour market transitions and wage dynamics."
 ---
 
-## Job Market Paper
+## Working Papers
 
 ::: {.paper}
 ::: {.paper-title}
-Wages, amenities and the value of formal employment: A structural approach for Mexico. [Job Market Paper](files/Research/Siachoque_JMP_2026.pdf){.paper-link target="_blank"}
+Wages, amenities and the value of formal employment: A structural approach for Mexico
 :::
 
 <details class="abstract">

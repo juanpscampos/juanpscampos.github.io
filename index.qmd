@@ -1,6 +1,6 @@
 ---
 pagetitle: "Juan Pablo Siachoque Campos"
-description: "Juan Pablo Siachoque Campos is a PhD candidate in Economics at the University of Nottingham, on the job market in 2026-27. Research on informal employment, labour markets and macroeconomics."
+description: "Juan Pablo Siachoque Campos is a PhD candidate in Economics at the University of Nottingham. Research on informal employment, labour markets and macroeconomics."
 toc: false
 include-in-header: head-person.html
 ---
@@ -30,8 +30,7 @@ University of Nottingham
 # Juan Pablo Siachoque Campos
 
 ::: {.lede}
-I am a PhD candidate in Economics at the **University of Nottingham**, on the
-job market in 2026–27.
+I am a PhD candidate in Economics at the **University of Nottingham**.
 
 My research interests cover quantitative and applied labour economics, with a particular focus on search and matching in the context of informal employment. I also have research experience in fiscal policy and sovereign debt.
 
@@ -41,7 +40,6 @@ During my doctorate I worked in the [OECD](https://www.oecd.org/en/about/directo
 :::
 
 [CV](files/Documents/CV.pdf){.btn target="_blank"}
-[Job Market Paper](files/Research/Siachoque_JMP_2026.pdf){.btn target="_blank"}
 
 :::
 
