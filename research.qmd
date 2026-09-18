@@ -1,9 +1,15 @@
 ---
 title: "Research"
-description: "My research is in applied and theoretical labour economics, in particular labour market transitions and wage dynamics."
+# Search-engine and social-share blurb only. Kept out of `description` so it
+# does not print as a subtitle under the page title.
+description-meta: "My research is in applied and theoretical labour economics, in particular labour market transitions and wage dynamics."
+open-graph:
+  description: "My research is in applied and theoretical labour economics, in particular labour market transitions and wage dynamics."
+twitter-card:
+  description: "My research is in applied and theoretical labour economics, in particular labour market transitions and wage dynamics."
 ---
 
-## Working Papers
+## Work in Progress
 
 ::: {.paper}
 ::: {.paper-title}
@@ -36,8 +42,6 @@ for women, while informality and non-employment increase.
 </div>
 </details>
 :::
-
-## Work in Progress
 
 ::: {.paper}
 ::: {.paper-title}
