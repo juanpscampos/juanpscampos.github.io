@@ -19,12 +19,12 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - href: cv.qmd
+        text: CV
       - href: research.qmd
         text: Research
       # - href: resources/index.qmd
       #   text: Resources
-      - href: cv.qmd
-        text: CV
   # Scoped by id: this sidebar appears only on resources/ pages, so Home,
   # Research and CV stay sidebar-free. Commented out with the section.
   # sidebar:
