@@ -32,11 +32,9 @@ University of Nottingham
 ::: {.lede}
 I am a PhD candidate in Economics at the **University of Nottingham**.
 
-My research interests cover quantitative and applied labour economics, with a particular focus on search and matching in the context of informal employment. I also have research experience in fiscal policy and sovereign debt.
+My research interests cover quantitative and applied labour economics, with a particular focus on search and matching in the context of informal employment.
 
-I have worked in the [OECD](https://www.oecd.org/en/about/directorates/directorate-for-employment-labour-and-social-affairs.html), the
-[Inter-American Development Bank](https://www.iadb.org/en) and the
-[Latin American Reserve Fund](https://flar.com/en/home/).
+I have worked in international institutions on macro-fiscal and social policy.
 :::
 
 [CV](files/Documents/CV/CV.pdf){.btn target="_blank"}
