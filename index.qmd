@@ -12,15 +12,18 @@ include-in-header: head-person.html
 ![](files/Fotos/Foto_Juan_Siachoque_compress.jpg){.profile-img fig-alt="Juan Pablo Siachoque Campos"}
 
 ::: {.social-row}
-[![X](files/Logos/logo-white.png){fig-alt="X"}](https://x.com/juanpscampos)
 [![LinkedIn](files/Logos/InBug-White.png){fig-alt="LinkedIn"}](https://www.linkedin.com/in/juanpscampos/)
+[![Email](files/Logos/mail-white.svg){fig-alt="Email"}](mailto:lexjs19@nottingham.ac.uk)
 [![GitHub](files/Logos/github-mark-white.png){fig-alt="GitHub"}](https://github.com/juanpscampos)
 :::
 
 ::: {.affiliation}
-PhD Candidate in Economics<br>
+Office C35<br>
+Sir Clive Granger Building<br>
 School of Economics<br>
-University of Nottingham
+University of Nottingham<br>
+University Park, Nottingham NG7 2RD<br>
+United Kingdom
 :::
 
 :::
@@ -38,6 +41,8 @@ I have worked in international institutions on macro-fiscal and social policy.
 :::
 
 [CV](files/Documents/CV/CV.pdf){.btn target="_blank"}
+
+Contact: [lexjs19@nottingham.ac.uk](mailto:lexjs19@nottingham.ac.uk)
 
 :::
 

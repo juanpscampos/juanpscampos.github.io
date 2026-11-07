@@ -40,7 +40,6 @@ website:
   #           - resources/apc.qmd
   open-graph: true
   twitter-card:
-    creator: "@juanpscampos"
     card-style: summary
   page-footer:
     left: "&copy; 2026 Juan Pablo Siachoque Campos"
@@ -49,8 +48,6 @@ website:
         href: "mailto:lexjs19@nottingham.ac.uk"
       - text: "LinkedIn"
         href: "https://www.linkedin.com/in/juanpscampos/"
-      - text: "X"
-        href: "https://x.com/juanpscampos"
 
 format:
   html:
