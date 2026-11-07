@@ -39,7 +39,7 @@ I have worked in the [OECD](https://www.oecd.org/en/about/directorates/directora
 [Latin American Reserve Fund](https://flar.com/en/home/).
 :::
 
-[CV](files/Documents/CV.pdf){.btn target="_blank"}
+[CV](files/Documents/CV/CV.pdf){.btn target="_blank"}
 
 :::
 

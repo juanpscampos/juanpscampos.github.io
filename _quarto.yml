@@ -23,6 +23,8 @@ website:
         text: CV
       - href: research.qmd
         text: Research
+      - href: teaching.qmd
+        text: Teaching
       # - href: resources/index.qmd
       #   text: Resources
   # Scoped by id: this sidebar appears only on resources/ pages, so Home,

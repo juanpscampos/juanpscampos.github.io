@@ -9,7 +9,7 @@ twitter-card:
   description: "My research is in applied and theoretical labour economics, in particular labour market transitions and wage dynamics."
 ---
 
-## Work in Progress
+## Job Market Paper
 
 ::: {.paper}
 ::: {.paper-title}
@@ -43,13 +43,7 @@ for women, while informality and non-employment increase.
 </details>
 :::
 
-::: {.paper}
-::: {.paper-title}
-The wage growth penalty of informal employment
-:::
-:::
-
-## Publications (Pre-PhD)
+## Working Papers
 
 ::: {.paper}
 ::: {.paper-title}
@@ -59,4 +53,12 @@ Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Econ
 with Oscar Mauricio Valencia and Luis Alberto Rodriguez · Revise & Resubmit, *Economic Modelling*
 :::
 
+:::
+
+## Work in Progress
+
+::: {.paper}
+::: {.paper-title}
+The wage growth penalty of informal employment
+:::
 :::

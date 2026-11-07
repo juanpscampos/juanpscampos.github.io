@@ -3,67 +3,90 @@ title: "Curriculum Vitae"
 description: "PhD candidate in Economics at the University of Nottingham. Previously at the OECD, the Inter-American Development Bank and the Latin American Reserve Fund."
 ---
 
-[Download full CV (PDF)](files/Documents/CV.pdf){.btn target="_blank"}
+[Download full CV (PDF)](files/Documents/CV/CV.pdf){.btn target="_blank"}
+
+C35, Sir Clive Granger Building, University Park, NG7 2RD, UK
+Email: [lexjs19@nottingham.ac.uk](mailto:lexjs19@nottingham.ac.uk) · Phone: (+44) 07309104448 · Nationality: Colombian
+
+**Primary Field:** Quantitative and applied labour economics. **Secondary Field:** Macroeconomics.
 
 ## Education
 
-- **PhD in Economics candidate** (2022 - Expected Spring 2027)  
-  University of Nottingham, Nottingham, UK  
-  Thesis title: Essays of informal employment.  
-  Supervisors: Richard Upward, Jake Bradley.
+- **PhD in Economics** (2022 - Expected Spring 2027)
+  University of Nottingham, Nottingham, UK
+  **Thesis: Essays on Informal Employment.**
+  *Supervisors: Richard Upward, Jake Bradley.*
 
-- **Master of Research in Economics** (2021 - 2022)  
-  University of Nottingham, Nottingham, UK  
+- **Master of Research in Economics** (2021 - 2022)
+  University of Nottingham, Nottingham, UK
 
-- **MSc Economics and Econometrics** (2019 - 2020)  
-  University of Nottingham, Nottingham, UK  
+- **MSc Economics and Econometrics** (2019 - 2020)
+  University of Nottingham, Nottingham, UK
 
-- **BSc Economics** (2008 - 2012)  
-  Universidad Externado de Colombia, Bogotá, Colombia  
+- **BSc Economics** (2008 - 2012)
+  Universidad Externado de Colombia, Bogotá, Colombia
 
-## Professional Experience
+## Job Market Paper
 
-- **Intern, Social Policy Division at the Directorate for Employment, Labour and Social Affairs** (Jun 2025 - Dec 2025)  
-  Organisation for Economic Co-operation and Development.
+- **[Wages, amenities and the value of formal employment: A structural approach for Mexico](research.qmd)**
 
-- **Consultant, Fiscal Policy and Management Division** (Aug 2020 - Dec 2021)  
-  Inter American Development Bank, Remote work.
+## Working Papers
 
-- **Economist, Economic Studies Department** (Jan 2017 - Aug 2019)  
-  Latin American Reserves Fund, Bogotá, Colombia.
+- Valencia, O., Rodriguez, L. A., & Siachoque, J. P. (2023). Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies. *IDB Working Paper Series*, No. 1341.
 
-- **Analyst, Finance Department** (Sep 2013 - Dec 2016)  
-  Latin American Reserves Fund, Bogotá, Colombia.
+## Work in Progress
 
-## Research Assistance Experience
+- **The wage growth penalty of informal employment**
 
-- **Project: Trade and Gender - Funded by CITP Innovation Fund** (Feb 2024 - Feb 2025)  
-  Supervisor: Dr. Martina Uccioli.  
-  School of Economics, University of Nottingham, Nottingham, UK  
+## Conferences
 
-## Teaching Experience
+- *5th International Conference on the Economics of Informality*, Bogotá, Colombia (Dec 2026, forthcoming)
+- *Oxford Development Economics Workshop*, St Catherine's College, Oxford, UK (Sep 2026)
+- *OECD Applied Economics Workshop*, Paris, France (Oct 2025)
 
-- **Graduate Teaching Assistant, School of Economics, University of Nottingham**  
-  - Dissertation (UG, Third year, Spring 2025)  
-  - Applied Econometrics I and II (UG, Second year, Fall 2023, Spring 2024)  
-  - Introduction to Economics: Macroeconomics (UG, First Year, Spring 2023)  
-  - Labour Economics (UG, Second Year, Fall 2022) 
-
-## Awards
-
-- **Faculty SEM Commendation for contribution to excellent student experience in Applied Econometrics I** (Fall 2023)
-
-- **Best Presentation Prize for the 2022/23 Annual PhD Conference** (Spring 2023)  
-  School of Economics, University of Nottingham
+## Fellowships and Awards
 
 - **Scholarship for Doctoral Studies in Economics, Central Bank of Colombia** (May 2021)
 
-- **Loan-Scholarship program for MSc Studies, COLFUTURO** (May 2019)
+- **Best Presentation Prize, 2022/23 Annual PhD Conference** (Spring 2023)
+  School of Economics, University of Nottingham
 
-- **Best Bachelor GPA cohort performance** (July - Dec 2011)  
-  Economics Faculty, Universidad Externado de Colombia
+- **Loan-Scholarship programme for MSc Studies, COLFUTURO** (May 2019)
+
+## Teaching Experience
+
+- **Graduate Teaching Assistant, School of Economics, University of Nottingham**
+  - *Dissertation* (UG Year 3, Spring 2025)
+  - *Applied Econometrics I and II* (UG Year 2, Fall 2023 and Spring 2024)
+  - *Introduction to Economics: Macroeconomics* (UG Year 1, Spring 2023)
+  - *Labour Economics* (UG Year 2, Fall 2022)
+  - Faculty SEM Commendation for excellent student experience in *Applied Econometrics I* (Fall 2023)
+
+## Research and Professional Experience
+
+- **Intern, Social Policy Division** (Jun 2025 - Dec 2025)
+  Directorate for Employment, Labour and Social Affairs
+  Organisation for Economic Co-operation and Development, Remote work.
+
+- **Research Assistant, Trade and Gender project, CITP Innovation Fund** (Feb 2024 - Feb 2025)
+  *Supervisor: Dr. Martina Uccioli.*
+  School of Economics, University of Nottingham, Nottingham, UK
+
+- **Consultant, Fiscal Policy and Management Division** (Aug 2020 - Dec 2021)
+  Inter-American Development Bank, Remote work.
+
+- **Economist, Economic Studies Department** (Jan 2017 - Aug 2019)
+  Latin American Reserves Fund, Bogotá, Colombia.
+
+- **Analyst, Finance Department** (Sep 2013 - Dec 2016)
+  Latin American Reserves Fund, Bogotá, Colombia.
+
+## Service
+
+- **Speaker, Offer Holder Days** (2023 and 2024)
+  School of Economics, University of Nottingham
 
 ## Skills
 
-- **IT**: MATLAB, Dynare, R, STATA, E-Views, LaTeX, Bloomberg.
-- **Languages**: Spanish (native), English (advanced).
+- **Programming:** MATLAB, Dynare, R, Stata, LaTeX.
+- **Languages:** Spanish (native), English (advanced).
