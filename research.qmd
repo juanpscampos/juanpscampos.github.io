@@ -13,32 +13,27 @@ twitter-card:
 
 ::: {.paper}
 ::: {.paper-title}
-Wages, amenities and the value of formal employment: A structural approach for Mexico
+Wages, amenities and the value of formal employment: A structural approach for Mexico [Paper](files/Documents/JMP/Siachoque_JMP.pdf){.paper-link target="_blank"}
 :::
 
 <details class="abstract">
 <summary>Abstract</summary>
 <div class="abstract-body">
-Workers move frequently between formal and informal jobs, yet the motives behind
-these transitions remain debated. Using household survey data from Mexico, I
-document that most informal-to-formal transitions take place within the same
-firm, consistent with a foot-in-the-door route to formality, and that sustained
-formalisation raises hourly wages only modestly. The wage gain is concentrated
-among low-skilled workers, even though skilled workers formalise at higher rates.
-These limited wage gains suggest that workers accept formal employment for
-reasons beyond current wage. I estimate a two-sector search model in which
-informal workers receive formal offers both from outside firms and from their
-current employer, and decompose the value of formal employment into a
-sector-specific non-wage amenity, future job opportunities, and employment
-stability. The estimated formal-sector amenity is worth 29.4% of the median
-informal wage for skilled men and 15.2% for skilled women, is negative for
-low-skilled women, and is not statistically significant for low-skilled men.
-Future formal job opportunities also contribute substantially to acceptance of
-formality; the within-firm foot-in-the-door channel is worth about 16% of the
-median informal wage for skilled men and about 4% for low-skilled women, and is
-quantitatively important for employment. In the absence of this channel, formal
-employment drops by roughly 8–14 percentage points for men and about 1–2 points
-for women, while informality and non-employment increase.
+Informal employment is high and persistent in low- and middle-income economies;
+however, evidence suggests that workers move between informal and formal jobs
+frequently. Using data for Mexico, I document that informal-to-formal transitions
+are more frequent than transitions in the opposite direction, that most occur
+within the same firm, and that these generate only modest immediate wage gains.
+I use a two-sector search model with on-the-job search to estimate workers'
+willingness to pay for a formal job, which captures both the wage and the
+non-wage reasons to accept one. I decompose the willingness to pay into
+sector-specific amenities, employment stability, and future job opportunities,
+including formal offers from the current employer. At the median informal wage,
+high-skilled workers are willing to pay USD 40–45 per month for a formal job,
+below its social-security cost, while low-skilled workers are close to
+indifferent. I find that once the within-firm route is included, the value of
+remaining informal rises as workers wait for better future formal employment
+opportunities in the same firm.
 </div>
 </details>
 :::
@@ -47,10 +42,10 @@ for women, while informality and non-employment increase.
 
 ::: {.paper}
 ::: {.paper-title}
-Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies [Working paper (IDB)](https://publications.iadb.org/en/fiscal-rules-and-optimal-currency-composition-sovereign-debt-emerging-economies){.paper-link target="_blank"}
+Fiscal Rules and Optimal Currency Composition of Sovereign Debt in Emerging Economies [Paper](https://publications.iadb.org/en/fiscal-rules-and-optimal-currency-composition-sovereign-debt-emerging-economies){.paper-link target="_blank"}
 :::
 ::: {.paper-meta}
-with Oscar Mauricio Valencia and Luis Alberto Rodriguez · Revise & Resubmit, *Economic Modelling*
+with Oscar Mauricio Valencia and Luis Alberto Rodriguez · R&R, *Economic Modelling*
 :::
 
 :::

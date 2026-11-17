@@ -2,6 +2,7 @@
 pagetitle: "Juan Pablo Siachoque Campos"
 description: "Juan Pablo Siachoque Campos is a PhD candidate in Economics at the University of Nottingham. Research on informal employment, labour markets and macroeconomics."
 toc: false
+body-classes: home-page
 include-in-header: head-person.html
 ---
 
@@ -33,14 +34,16 @@ United Kingdom
 # Juan Pablo Siachoque Campos
 
 ::: {.lede}
+Welcome to my website!
+
 I am a PhD candidate in Economics at the **University of Nottingham**.
 
 My research interests cover quantitative and applied labour economics, with a particular focus on search and matching in the context of informal employment.
 
-I have worked in international institutions on macro-fiscal and social policy.
+I have worked in several international institutions in macro-fiscal, macro-financial and social policy.
 :::
 
-[CV](files/Documents/CV/CV.pdf){.btn target="_blank"}
+[CV](files/Documents/CV/CV.pdf){.btn target="_blank"} [Job Market Paper](files/Documents/JMP/Siachoque_JMP.pdf){.btn target="_blank"}
 
 Contact: [lexjs19@nottingham.ac.uk](mailto:lexjs19@nottingham.ac.uk)
 

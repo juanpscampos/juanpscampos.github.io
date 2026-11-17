@@ -22,7 +22,8 @@ $body-color:   $ink;
 $link-color:   $accent;
 $link-hover-color: $accent-hover;
 
-$font-size-root: 18px;
+// Text size for every page except Home (was 18px; +2pt as in Word).
+$font-size-root: 20.5px;
 $line-height-base: 1.7;
 $headings-font-weight: 600;
 $border-radius: 10px;
@@ -94,6 +95,18 @@ h2 {
 }
 
 // --- Home page -----------------------------------------------------
+// Home is tagged with `body-classes: home-page` in index.qmd.
+// Bigger text than the other pages (18px +3pt as in Word = 22px).
+html:has(body.home-page) { font-size: 22px; }
+
+// Wider column on Home only (other pages stay at grid.body-width,
+// 900px). Same grid Quarto builds for a full-width page, with 1100px.
+@media (min-width: 992px) {
+  body.home-page.fullcontent:not(.floating):not(.docked) .page-columns {
+    grid-template-columns: [screen-start] 1.5em [screen-start-inset page-start page-start-inset body-start-outset] 5fr [body-start] 1.5em [body-content-start] minmax(500px, calc(1100px - 3em)) [body-content-end] 1.5em [body-end body-end-outset page-end-inset page-end] 5fr [screen-end-inset] 1.5em [screen-end];
+  }
+}
+
 .profile-img {
   max-width: 100%;
   height: auto;
