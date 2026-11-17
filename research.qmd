@@ -24,14 +24,14 @@ however, evidence suggests that workers move between informal and formal jobs
 frequently. Using data for Mexico, I document that informal-to-formal transitions
 are more frequent than transitions in the opposite direction, that most occur
 within the same firm, and that these generate only modest immediate wage gains.
-I use a two-sector search model with on-the-job search to estimate workers'
-willingness to pay for a formal job, which captures both the wage and the
-non-wage reasons to accept one. I decompose the willingness to pay into
-sector-specific amenities, employment stability, and future job opportunities,
+I use a two-sector search model with on-the-job search to study how wage and
+nonwage attributes shape formal job acceptance. I estimate workers' willingness
+to pay for formal employment and decompose the value into sector-specific
+amenities, employment stability, and future job opportunities,
 including formal offers from the current employer. At the median informal wage,
 high-skilled workers are willing to pay USD 40–45 per month for a formal job,
 below its social-security cost, while low-skilled workers are close to
-indifferent. I find that once the within-firm route is included, the value of
+indifferent. I find that once within-firm formalization is included, the value of
 remaining informal rises as workers wait for better future formal employment
 opportunities in the same firm.
 </div>
