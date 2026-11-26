@@ -33,8 +33,9 @@ function Copy-Asset($Source, $Dest, $Label) {
     return $Label
 }
 
-if ($Cv)  { $changes += Copy-Asset $Cv  "files/Documents/CV.pdf"                          "CV" }
-if ($Jmp) { $changes += Copy-Asset $Jmp "files/Research/Siachoque_JMP_2026.pdf" "Job market paper" }
+# These must match the links in index.qmd, cv.qmd and research.qmd.
+if ($Cv)  { $changes += Copy-Asset $Cv  "files/Documents/CV/CV.pdf"             "CV" }
+if ($Jmp) { $changes += Copy-Asset $Jmp "files/Documents/JMP/Siachoque_JMP.pdf" "Job market paper" }
 
 Write-Host "`nRendering..." -ForegroundColor Cyan
 quarto render
