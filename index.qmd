@@ -31,8 +31,6 @@ United Kingdom
 
 ::: {#text-col}
 
-# Juan Pablo Siachoque Campos
-
 ::: {.lede}
 Welcome to my website!
 
